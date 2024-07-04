@@ -1,0 +1,1 @@
+bossbar set storm visible false

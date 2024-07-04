@@ -1,0 +1,1 @@
+give @p bedrock{display:{Name:'{"text":"創世神的神力","color":"dark_gray","bold":true}'},Enchantments:[{id:"minecraft:channeling",lvl:10s}],AttributeModifiers:[{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:99999,Operation:0,UUID:[I;273260291,-499890297,-1755055072,1892282046],Slot:"mainhand"}]} 1

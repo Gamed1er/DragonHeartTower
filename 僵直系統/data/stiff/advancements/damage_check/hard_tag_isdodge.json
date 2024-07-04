@@ -1,0 +1,44 @@
+{
+	"criteria": {
+		"stiff": {
+			"trigger": "minecraft:entity_hurt_player",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:all_of",
+						"terms": [
+							{
+								"condition": "minecraft:entity_properties",
+								"entity": "this",
+								"predicate": {
+									"nbt": "{Tags:[\"dodge\"]}"
+								}
+							}
+						]
+					}
+				],
+				"damage": {
+					"blocked": false,
+					"type": {
+						"tags": [
+							{
+								"id": "stiff:weak",
+								"expected": false
+							},
+							{
+								"id": "stiff:hard",
+								"expected": false
+							}
+						],
+						"source_entity": {
+							"nbt": "{Tags:[\"ToDH.HardAttacker\"]}"
+						}
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "stiff:main/do/damage/block_hard"
+	}
+}
