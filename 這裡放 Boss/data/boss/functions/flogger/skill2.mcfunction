@@ -1,6 +1,7 @@
 execute if score SkillCoolDown flogger matches 0 run data modify entity @s NoAI set value true
 execute if score SkillCoolDown flogger matches 0 facing entity @p eyes run tp @s ^ ^ ^1 facing entity @p
-effect give @s glowing 5 2 false
+effect give @s glowing 2 2 false
+effect give @s resistance 2 3 false
 
 tp @s ~ ~ ~ ~60 -15
 
