@@ -13,8 +13,8 @@ execute as @r run say BOSS 資源包已載入完畢
 ## 創建 ScoreBoard
     scoreboard objectives add ParticleTime dummy
 
-##創建 Bossbar
-
-
 ##隱藏所有 Bossbar
-
+    function boss:dragon_knight/end
+    function boss:flogger/end
+    function boss:storm/end
+    function boss:_particle/5/end
