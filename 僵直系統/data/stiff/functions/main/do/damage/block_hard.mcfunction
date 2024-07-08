@@ -7,3 +7,4 @@ advancement revoke @s only stiff:damage_check/hard_isblock
 advancement revoke @s only stiff:damage_check/hard_tag_isblock
 advancement revoke @s only stiff:damage_check/hard_isdodge
 advancement revoke @s only stiff:damage_check/hard_tag_isdodge
+

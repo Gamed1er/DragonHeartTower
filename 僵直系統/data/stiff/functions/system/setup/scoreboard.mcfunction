@@ -22,5 +22,6 @@ scoreboard objectives add ToDH.BattleTime.tick custom:play_time
 
 scoreboard objectives add Math dummy
 scoreboard players set tick Math 20
+scoreboard players set 5 Math 5
 scoreboard players set 10 Math 10
 scoreboard players set 100 Math 100
