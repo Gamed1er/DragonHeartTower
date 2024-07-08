@@ -6,15 +6,18 @@
 開始請先打 /function stiff:main/start/setup  用來初始化數值
 
 v0.4：
+
     1.現在dodge可以無視一般攻擊造成的僵直
       -持續傷害在dodge仍造成僵直
       -dodge途中遭受強攻擊將獲得與抵擋同等僵直
 v0.3.1：
+
     1.現在(只能)由玩家對怪物使用強攻擊可以增加50.0-75.0的僵直
       -damage @e[tag=enemy,limit=1] 1 stiff:hard_damage by @s
       -此指令可對怪物造成來源為玩家自身的強攻擊
       -如果怪物持盾且附帶可抵擋nbt則強攻擊轉微弱攻擊
 v0.3：
+
     1.新增對怪物的僵直
       -但需先設置怪物的 stiff.bodylimit.Max 值
       -且怪物需帶有標籤 Tags:["enemy"]
