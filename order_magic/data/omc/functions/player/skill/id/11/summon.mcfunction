@@ -1,5 +1,6 @@
 
 
+
 execute as @s at @s anchored eyes run summon marker ^ ^ ^ {Tags:["OMC.Skill.target","OMC.Skill.ID.11"]}
 execute at @s run scoreboard players operation @e[type=marker,limit=1,tag=OMC.Skill.target] OMC.Player.ID = @s OMC.Player.ID
 
