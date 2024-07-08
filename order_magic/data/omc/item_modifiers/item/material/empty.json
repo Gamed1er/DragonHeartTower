@@ -1,0 +1,17 @@
+[
+	{
+		"function": "minecraft:set_name",
+		"entity": "this",
+		"name": {
+			"text": "EMPTY",
+			"color": "dark_purple",
+			"bold": true,
+			"italic": false,
+			"underlined": false
+		}
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{Tags:[\"OMC.item.material\",\"Empty\"]}"
+	}
+]

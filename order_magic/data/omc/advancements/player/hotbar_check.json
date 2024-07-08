@@ -1,0 +1,41 @@
+{
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:all_of",
+						"terms": [
+							{
+								"condition": "minecraft:entity_properties",
+								"entity": "this",
+								"predicate": {
+									"nbt": "{Tags:[\"OMC.Players.standby\"]}"
+								}
+							},
+							{
+								"condition": "minecraft:any_of",
+								"terms": [
+									{
+										"condition": "minecraft:inverted",
+										"term": {
+											"condition": "minecraft:entity_properties",
+											"entity": "this",
+											"predicate": {
+												"nbt": "{Inventory:[{Slot:0b,Count:1b,id:\"minecraft:firework_star\",tag:{Tags:[\"OMC.item.material\",\"None\"]}}]}"
+											}
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "omc:player/standby/hotbar/tick"
+	}
+}

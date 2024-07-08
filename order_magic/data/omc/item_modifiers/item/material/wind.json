@@ -1,0 +1,17 @@
+[
+	{
+		"function": "minecraft:set_name",
+		"entity": "this",
+		"name": {
+			"text": "風屬性",
+			"color": "aqua",
+			"bold": true,
+			"italic": false,
+			"underlined": false
+		}
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{Tags:[\"OMC.item.material\",\"Wind\"]}"
+	}
+]

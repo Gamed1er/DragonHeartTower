@@ -1,0 +1,48 @@
+{
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:any_of",
+						"terms": [
+							{
+								"condition": "minecraft:all_of",
+								"terms": [
+									{
+										"condition": "minecraft:inverted",
+										"term": {
+											"condition": "minecraft:entity_properties",
+											"entity": "this",
+											"predicate": {
+												"nbt": "{Inventory:[{Slot:0b,tag:{Tags:[\"OMC.trigger\"]}}]}"
+											}
+										}
+									},
+									{
+										"condition": "minecraft:entity_properties",
+										"entity": "this",
+										"predicate": {
+											"nbt": "{Inventory:[{Slot:0b,id:\"minecraft:air\"}]}"
+										}
+									}
+								]
+							}
+						]
+					}
+				],
+				"items": [
+					{
+						"items": [
+							"minecraft:air"
+						]
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "omc:test"
+	}
+}

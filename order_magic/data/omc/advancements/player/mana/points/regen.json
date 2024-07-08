@@ -1,0 +1,40 @@
+{
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:all_of",
+						"terms": [
+							{
+								"condition": "minecraft:entity_properties",
+								"entity": "this",
+								"predicate": {}
+							},
+							{
+								"condition": "minecraft:inverted",
+								"term": {
+									"condition": "minecraft:entity_scores",
+									"entity": "this",
+									"scores": {
+										"OMC.Player.Mana.Points": {
+											"min": {
+												"type": "minecraft:score",
+												"target": "this",
+												"score": "OMC.Player.Mana.Points.Max"
+											}
+										}
+									}
+								}
+							}
+						]
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "omc:player/mana/points/regen"
+	}
+}

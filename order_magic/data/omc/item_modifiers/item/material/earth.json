@@ -1,0 +1,17 @@
+[
+	{
+		"function": "minecraft:set_name",
+		"entity": "this",
+		"name": {
+			"text": "土屬性",
+			"color": "#663300",
+			"bold": true,
+			"italic": false,
+			"underlined": false
+		}
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{Tags:[\"OMC.item.material\",\"Earth\"]}"
+	}
+]
