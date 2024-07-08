@@ -1,1 +1,3 @@
-hehehehehe
+240708 updata
+
+現在僵硬不再能進行閃避
