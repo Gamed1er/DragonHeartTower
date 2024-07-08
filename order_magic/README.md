@@ -22,6 +22,10 @@
     example
     /give @s stick{Tags:["OMC.trigger"]}
 
+配方表
+
+    無：小魔彈（普通攻擊）
+    無無：大魔彈
 
 v0.2
 
