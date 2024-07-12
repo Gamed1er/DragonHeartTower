@@ -11,12 +11,9 @@
     F魔杖至副手進入施法狀態
     
     魔量(OMC.Player.Mana.Points)與回魔(OMC.Player.Mana.Points.Regen)
+    魔力強度(OMC.Player.Mana.Strength)基礎預設為4，可修改，但每次Reload後會重設
     功能皆正常
-    但並無設計GUI
-    因此請用
-    /scoreboard player get OMC.Player.Mana.Points
-    查看當前魔量
-    
+        
     可以Q出法杖釋放小魔球，消耗3.0魔量
     魔杖的定義為物品Tags帶有["OMC.trigger"]皆為魔杖
     example
