@@ -47,9 +47,11 @@ v0.2.5
     現在計算魔力強度時或抓取玩家魔杖的值
         -值為自訂義標籤{OMCManaStrength:(賦值)}
         -可自行決定數值
+        -example：/give @s stick{Tags:["OMC.trigger"],OMCManaStrength:16}
     現在會偵測兩件套戰鬥魔法裝備進行強化
         -詳細請至龍心規劃-戰鬥篇閱讀
-        *目前只偵測兩件套
+        -目前只偵測兩件套
+        -條件為裝備附帶標籤{Tags:["ToDH.Armor.Battle.Magic"]}
     
 v0.2.4
 
