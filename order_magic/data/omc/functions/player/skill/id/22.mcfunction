@@ -3,7 +3,8 @@ execute positioned 0.0 0.0 0.0 rotated as @s as @e[tag=OMC.marker.vector] run tp
 execute store result storage omc:function Skill.vector.X float 0.001 run data get entity @e[tag=OMC.marker.vector,limit=1] Pos[0] 100
 execute store result storage omc:function Skill.vector.Y float 0.001 run data get entity @e[tag=OMC.marker.vector,limit=1] Pos[1] 100
 execute store result storage omc:function Skill.vector.Z float 0.001 run data get entity @e[tag=OMC.marker.vector,limit=1] Pos[2] 100
-execute store result storage omc:function Skill.vector.DMG float 0.025 run scoreboard players get @s OMC.Player.Mana.Strength
+function omc:player/mana/damage/count
+execute store result storage omc:function Skill.vector.DMG float 0.025 run scoreboard players get @s OMC.Player.Mana.Damage
 
 title @s times 0t 6t 1t
 title @s subtitle ["",{"text":"[","bold":true,"italic":true,"strikethrough":true,"color":"dark_purple"},{"text":"炎爆彈","bold":true,"italic":true,"underlined":true,"color":"gold"},{"text":"]","bold":true,"italic":true,"strikethrough":true,"color":"dark_purple"}]

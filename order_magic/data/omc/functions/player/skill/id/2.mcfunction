@@ -7,5 +7,9 @@ title @s title [""]
 
 execute at @s as @s unless score @s OMC.Player.Mana.Points matches 65.. run function omc:player/skill/list/text/not_enough
 
-execute at @s as @s if score @s OMC.Player.Mana.Points matches 65.. as @e[tag=enemy,distance=..5] as @s run data modify entity @s Fire set value 100
+
+tag @s add OMC.attacker.detect
+function omc:player/mana/damage/count
+execute at @s as @s if score @s OMC.Player.Mana.Points matches 65.. as @e[tag=enemy,distance=..5] as @s store result entity @s Fire int 25 run scoreboard players get @p[tag=OMC.attacker.detect] OMC.Player.Mana.Damage
 execute at @s as @s if score @s OMC.Player.Mana.Points matches 65.. run scoreboard players remove @s OMC.Player.Mana.Points 65
+tag @s remove OMC.attacker.detect

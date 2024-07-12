@@ -8,6 +8,8 @@ scoreboard objectives add OMC.Player.Mana.Points.display.d dummy
 scoreboard objectives add OMC.Player.Mana.Points.Max dummy
 scoreboard objectives add OMC.Player.Mana.Points.Max.display dummy
 scoreboard objectives add OMC.Player.Mana.Points.Regen dummy
+scoreboard objectives add OMC.Player.Mana.Damage dummy
+
 
 
 scoreboard objectives add OMC.Skill.ID dummy
@@ -34,5 +36,14 @@ scoreboard players set @a OMC.Player.Mana.Strength 40
 scoreboard players set @a OMC.Skill.ID.Limit 2
 
 
+scoreboard players set 1 Math 1
+scoreboard players set 2 Math 2
+scoreboard players set 3 Math 3
+scoreboard players set 4 Math 4
+scoreboard players set 5 Math 5
+scoreboard players set 6 Math 6
+scoreboard players set 7 Math 7
+scoreboard players set 8 Math 8
+scoreboard players set 9 Math 9
 scoreboard players set 10 Math 10
 scoreboard players set 100 Math 100
