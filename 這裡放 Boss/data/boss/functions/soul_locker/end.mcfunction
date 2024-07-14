@@ -1,0 +1,1 @@
+bossbar set soul_locker visible false

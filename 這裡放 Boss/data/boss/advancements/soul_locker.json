@@ -1,0 +1,18 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "source_entity": {
+                        "nbt": "{Tags:[\"soul_locker\"]}"
+                    }
+                }  
+            }
+        }
+    },
+    "rewards": {
+        "function": "boss:soul_locker/skill1"
+    }
+}
+  
