@@ -4,14 +4,15 @@
     
 
 ## 近戰遠程切換
-    execute if entity @a[distance=..2] run data modify entity @e[tag = soul_locker, limit = 1] HandItems set value [{id:"minecraft:iron_sword",Count:1b},{}]
-    execute unless entity @a[distance=..6] run data modify entity @e[tag = soul_locker, limit = 1] HandItems set value [{id:"minecraft:bow",Count:1b},{}]
+    execute if entity @a[distance=..3] run data modify entity @s[tag = soul_locker, nbt = {HandItems:[{id:"minecraft:bow"},{}]}] HandItems set value [{id:"minecraft:iron_sword",Count:1b},{}]
+    execute unless entity @a[distance=..6] run data modify entity @s[tag = soul_locker, nbt = {HandItems:[{id:"minecraft:iron_sword"},{}]}] HandItems set value [{id:"minecraft:bow",Count:1b},{}]
 
 ## 定身
     scoreboard players remove @e[tag = soul_locker_soul] soul_locker 1
-    execute as @e[tag = soul_locker_soul, scores = {soul_locker = ..-240}] run effect give @a[tag = soul_locker_locked] slowness 10 9
+    execute as @e[tag = soul_locker_soul, scores = {soul_locker = ..-240}] run effect give @a[tag = soul_locker_locked] slowness 10 46
     execute as @e[tag = soul_locker_soul, scores = {soul_locker = ..-240}] run effect give @a[tag = soul_locker_locked] jump_boost 10 200
     execute as @e[tag = soul_locker_soul, scores = {soul_locker = ..-240}] run effect give @a[tag = soul_locker_locked] nausea 10 1
+    execute as @e[tag = soul_locker_soul, scores = {soul_locker = ..-240}] run tp ~ -100 ~
     execute as @e[tag = soul_locker_soul, scores = {soul_locker = ..-240}] run kill @s
     execute as @e[tag = soul_locker_soul, scores = {soul_locker = ..-240}] run tag @a remove soul_locker_locked
     execute as @e[tag = soul_locker_soul, scores = {soul_locker = ..-240}] run advancement revoke @a only boss:soul_locker
@@ -22,7 +23,7 @@
 ## 爆炸
     scoreboard players remove @e[tag = soul_tnt] soul_locker 1
     execute as @e[tag = soul_tnt, scores = {soul_locker = ..-240}] at @s run function boss:soul_locker/tnt_boom
-    execute as @e[tag = soul_tnt, scores = {soul_locker = -179..}] if entity @a[distance = ..3] at @s run scoreboard players set @s soul_locker -180
+    execute as @e[tag = soul_tnt, scores = {soul_locker = -179..}] at @s if entity @a[distance = ..3] run scoreboard players set @s soul_locker -180
     execute as @e[tag = soul_tnt, scores = {soul_locker = ..-180}] at @s run particle angry_villager ~ ~ ~ 0.6 0.2 0.6 1 1 force @a
 
 ## 技能

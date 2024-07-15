@@ -2,7 +2,7 @@
     scoreboard objectives add storm dummy "風暴守護者"
     scoreboard players set Health storm 0
     scoreboard players set Hint storm 0
-    scoreboard players set SkillCoolDown storm 120
+    scoreboard players set SkillCoolDown storm 100
     scoreboard players set SkillChooser storm -1
     scoreboard players set FaintTime storm -1
 

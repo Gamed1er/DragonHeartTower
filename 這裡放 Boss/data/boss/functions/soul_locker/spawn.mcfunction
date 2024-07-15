@@ -1,7 +1,7 @@
 ## 創建 ScoreBoard
     scoreboard objectives add soul_locker dummy "癡盲鎖魂人 - 厄爾"
     scoreboard players set Health soul_locker 0
-    scoreboard players set SkillCoolDown soul_locker 240
+    scoreboard players set SkillCoolDown soul_locker 100
     scoreboard players set SkillChooser soul_locker -1
 
 ## 創建 BossBar

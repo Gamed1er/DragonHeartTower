@@ -17,4 +17,5 @@ execute as @r run say BOSS 資源包已載入完畢
     function boss:dragon_knight/end
     function boss:flogger/end
     function boss:storm/end
+    function boss:soul_locker/end
     function boss:_particle/5/end

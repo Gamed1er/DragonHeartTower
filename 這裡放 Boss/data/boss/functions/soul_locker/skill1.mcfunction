@@ -1,4 +1,8 @@
-execute unless entity @e[tag = soul_locker_soul] run summon skeleton ~ ~ ~ {CustomNameVisible:1b,NoAI:1b,Health:20f,Tags:["enemy","soul_locker_soul","boss_partner","soul_setting"],CustomName:'{"text":"soul","color":"black"}',ArmorItems:[{id:"minecraft:dirt",Count:1b},{id:"minecraft:dirt",Count:1b},{id:"minecraft:dirt",Count:1b},{id:"minecraft:dirt",Count:1b}],ArmorDropChances:[0.000F,0.000F,0.000F,0.000F],active_effects:[{id:"minecraft:invisibility",amplifier:1b,duration:-1},{id:"minecraft:glowing",amplifier:1b,duration:-1}],Attributes:[{Name:generic.max_health,Base:20}]}
+scoreboard players set if_single_player soul_locker 0
+execute as @a[nbt={active_effects:[{id:"minecraft:slowness", amplifier:46b}]}] run scoreboard players add if_single_player soul_locker 1
+execute as @a[nbt=!{active_effects:[{id:"minecraft:slowness", amplifier:46b}]}] run scoreboard players remove if_single_player soul_locker 1
+execute unless entity @e[tag = soul_locker_soul] unless score if_single_player soul_locker matches 1 run summon skeleton ~ ~ ~ {CustomNameVisible:1b,NoAI:1b,Health:20f,Tags:["enemy","soul_locker_soul","boss_partner","soul_setting"],CustomName:'{"text":"soul","color":"black"}',ArmorItems:[{id:"minecraft:dirt",Count:1b},{id:"minecraft:dirt",Count:1b},{id:"minecraft:dirt",Count:1b},{id:"minecraft:dirt",Count:1b}],ArmorDropChances:[0.000F,0.000F,0.000F,0.000F],active_effects:[{id:"minecraft:invisibility",amplifier:1b,duration:-1},{id:"minecraft:glowing",amplifier:1b,duration:-1}],Attributes:[{Name:generic.max_health,Base:20}]}
+
 
 execute store result entity @e[tag = soul_setting, limit = 1] Health double 3 run attribute @s generic.max_health get 1
 data modify entity @e[tag = soul_setting, limit = 1] UUID set from entity @s UUID

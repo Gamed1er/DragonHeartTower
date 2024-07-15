@@ -7,10 +7,9 @@
     scoreboard players remove SkillCoolDown flogger 1
 
     # 若 CD 歸零，施放技能
-    execute if score SkillCoolDown flogger matches 0 store result score SkillChooser flogger run random value 0..10
-    execute if score SkillCoolDown flogger matches 1.. run scoreboard players set SkillChooser flogger -1
-    execute if score SkillChooser flogger matches 0..5 run function boss:flogger/skill1
-    execute if score SkillChooser flogger matches 6..10 run function boss:flogger/skill2
+    execute if score SkillCoolDown flogger matches 0 run scoreboard players add SkillChooser flogger 1
+    execute if score SkillCoolDown flogger matches ..0 run function boss:flogger/skill2
+    execute if score SkillCoolDown flogger matches 0 if score SkillChooser flogger matches 5 run function boss:flogger/skill1
 
 ## 遞迴
     execute as @e[tag = flogger] run schedule function boss:flogger/loop1 1t
