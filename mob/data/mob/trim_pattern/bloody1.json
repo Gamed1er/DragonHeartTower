@@ -1,0 +1,7 @@
+{
+    "asset_id": "minecraft:bloody1",
+    "description": {
+      "translate": "trim_pattern.example.bloody1"
+    },
+    "template_item": "minecraft:bedrock"
+  }
