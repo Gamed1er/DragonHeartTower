@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "Tower": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "tower": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "mob:resentment_tick"
+  }
+}
