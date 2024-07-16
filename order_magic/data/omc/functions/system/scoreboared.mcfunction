@@ -11,6 +11,7 @@ scoreboard objectives add OMC.Player.Mana.Points.Regen dummy
 scoreboard objectives add OMC.Player.Mana.Damage dummy
 
 
+scoreboard objectives add OMC.Check.Fire.Tick dummy
 
 scoreboard objectives add OMC.Skill.ID dummy
 scoreboard objectives add OMC.Skill.ID.Limit dummy
