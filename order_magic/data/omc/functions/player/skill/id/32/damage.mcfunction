@@ -8,4 +8,4 @@ execute at @s run playsound minecraft:entity.generic.extinguish_fire ambient @a[
 execute at @s run playsound minecraft:entity.generic.extinguish_fire ambient @a[distance=..12] ~ ~ ~ 2 0.8 0.5
 
 
-scoreboard players remove @s OMC.Player.Mana.Points 110
+scoreboard players operation @s OMC.Player.Mana.Points -= @s OMC.Player.Mana.Points.Cost 

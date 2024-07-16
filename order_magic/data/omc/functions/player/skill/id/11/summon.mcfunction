@@ -15,4 +15,4 @@ execute at @s run ride @e[limit=1,sort=nearest,nbt={Tags:["OMC.Skill.target"]}] 
 
 
 function omc:player/skill/id/11/tick
-scoreboard players remove @s OMC.Player.Mana.Points 80
+scoreboard players operation @s OMC.Player.Mana.Points -= @s OMC.Player.Mana.Points.Cost 

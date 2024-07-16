@@ -8,6 +8,7 @@ scoreboard objectives add OMC.Player.Mana.Points.display.d dummy
 scoreboard objectives add OMC.Player.Mana.Points.Max dummy
 scoreboard objectives add OMC.Player.Mana.Points.Max.display dummy
 scoreboard objectives add OMC.Player.Mana.Points.Regen dummy
+scoreboard objectives add OMC.Player.Mana.Points.Cost dummy
 scoreboard objectives add OMC.Player.Mana.Damage dummy
 
 
