@@ -1,30 +1,40 @@
 UPDATE
-240713 
+240716
 
 排列組合釋放魔法
 
 排組魔法v0.3
     
-    目前大致完善
-    並無設計技能因此沒有法術可以施放
-    但是法術ID Manager的功能完善
-    可以正常呼叫ID
-    F魔杖至副手進入施法狀態
+    施法
+        F魔杖至副手進入施法狀態
+        丟出對應屬性輸入法術ID
+        投入超過上限則重置ID
+        確認法術配方（ID)後再次F進行釋放法術
     
-    魔量(OMC.Player.Mana.Points)與回魔(OMC.Player.Mana.Points.Regen)
-    魔力強度(OMC.Player.Mana.Strength)基礎預設為4，可修改，但每次Reload後會重設
-    功能皆正常
+    數值
+        魔量(OMC.Player.Mana.Points)
+        回魔(OMC.Player.Mana.Points.Regen)
+        魔力強度(OMC.Player.Mana.Strength)
+        施法等級(OMC.Skill.Limit)
+        魔力強度基礎預設為4，可修改，但每次Reload後會重設
+        魔量預設為1000實際為100.0方便計算小數
+        回魔預設為1義為每刻恢復1（0.1）魔力
+        施法等級預設為2，意指最多只能釋放2位元法術，可修改來釋放更高等的法術，但每次reload會重置
         
-    可以Q出法杖釋放小魔球，消耗3.0魔量
-    魔杖的定義為物品Tags帶有["OMC.trigger"]皆為魔杖
-    example
-    /give @s stick{Tags:["OMC.trigger"]}
+    普通攻擊
+        未處於施法狀態時
+        可以Q出魔杖釋放小魔球，消耗3.0魔量
+    
+    魔杖的定義
+        物品Tags帶有["OMC.trigger"]皆為魔杖
+        example
+        /give @s stick{Tags:["OMC.trigger"]}
 
 配方表
 
     1位元
         無：小魔彈（普通攻擊）|MP=3.0
-            -造成35%魔法傷害
+            -造成50%魔法傷害
         火：點燃|MP=6.5
             -使範圍內(5)怪物燃燒5秒
         水：打滑|MP=6.5
