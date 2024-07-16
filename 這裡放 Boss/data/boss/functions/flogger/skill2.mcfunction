@@ -11,7 +11,7 @@ execute if score SkillCoolDown flogger matches -30 run tp @s ~ ~ ~ facing entity
 #施放技能
 execute if score SkillCoolDown flogger matches -31 at @s facing entity @p feet run function boss:_particle/5/start
 execute if score SkillCoolDown flogger matches -32 at @a run playsound entity.lightning_bolt.thunder master @a ~ ~ ~ 1.0 1.0 1.0
-execute if score SkillCoolDown flogger matches -32 at @e[tag = Particle5] as @a[distance = ..2] run damage @s 20 lightning_bolt by @e[tag = flogger, limit = 1]
+execute if score SkillCoolDown flogger matches -32 at @e[tag = Particle5] as @a[distance = ..2] run damage @s 4 lightning_bolt by @e[tag = flogger, limit = 1]
 execute if score SkillCoolDown flogger matches -33 run data modify entity @s NoAI set value false
 execute if score SkillCoolDown flogger matches -33 run effect clear @s glowing
 execute if score SkillCoolDown flogger matches -33 run effect give @s speed 2 4
