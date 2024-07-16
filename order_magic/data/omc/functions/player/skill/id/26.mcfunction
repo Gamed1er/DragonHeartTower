@@ -7,7 +7,6 @@ execute at @s as @s unless score @s OMC.Player.Mana.Points matches 120.. run fun
 
 tag @s add OMC.attacker.detect
 function omc:player/mana/damage/count
-execute at @s as @s if score @s OMC.Player.Mana.Points matches 120.. as @e[tag=enemy,distance=..8] as @s unless data entity @s {Fire:-1s} as @s at @s as @e[distance=..4,nbt={Fire:-1s},tag=enemy] store result entity @s Fire int 1 run data get entity @e[tag=enemy,limit=1,sort=nearest,nbt=!{Fire:-1s}] Fire
-execute at @s as @s if score @s OMC.Player.Mana.Points matches 120.. as @e[tag=enemy,distance=..8] as @s unless data entity @s {Fire:-1s} as @s at @s at @s run particle flame ~ ~1 ~ 0.2 0.5 0.2 0.05 96
-execute at @s as @s if score @s OMC.Player.Mana.Points matches 120.. run scoreboard players remove @s OMC.Player.Mana.Points 120
+execute at @s as @s if score @s OMC.Player.Mana.Points matches 120.. run function omc:player/skill/id/26/fire
+
 tag @s remove OMC.attacker.detect
