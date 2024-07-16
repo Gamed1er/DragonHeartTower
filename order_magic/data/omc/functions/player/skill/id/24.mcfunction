@@ -9,6 +9,10 @@ execute at @s as @s unless score @s OMC.Player.Mana.Points >= @s OMC.Player.Mana
 
 tag @s add OMC.attacker.detect
 function omc:player/mana/damage/count
-execute store result storage omc:function Battle.DMG float 0.1 run scoreboard players get @p[tag=OMC.attacker.detect] OMC.Player.Mana.Damage
+scoreboard players operation @s OMC.Player.Mana.Damage *= 5 Math
+scoreboard players operation @s OMC.Player.Mana.Damage *= 5 Math
+scoreboard players operation @s OMC.Player.Mana.Damage /= 2 Math
+scoreboard players add @s OMC.Player.Mana.Damage 2000
+execute store result storage omc:function Battle.DMG float 0.001 run scoreboard players get @p[tag=OMC.attacker.detect] OMC.Player.Mana.Damage
 execute at @s as @s if score @s OMC.Player.Mana.Points >= @s OMC.Player.Mana.Points.Cost run function omc:player/skill/id/24/multi with storage omc:function Battle
 tag @s remove OMC.attacker.detect
