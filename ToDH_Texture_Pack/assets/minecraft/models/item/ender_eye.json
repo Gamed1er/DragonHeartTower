@@ -1,0 +1,13 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/ender_eye"
+  },
+  "overrides": [
+    {"predicate": {"custom_model_data": 81001},"model": "item/elements/wind_element"},
+    {"predicate": {"custom_model_data": 81002},"model": "item/elements/flame_element"},
+    {"predicate": {"custom_model_data": 81003},"model": "item/elements/water_element"},
+    {"predicate": {"custom_model_data": 81004},"model": "item/elements/wood_element"},
+    {"predicate": {"custom_model_data": 81005},"model": "item/elements/earth_element"}
+  ]
+}
