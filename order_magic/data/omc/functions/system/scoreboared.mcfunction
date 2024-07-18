@@ -1,6 +1,8 @@
 
 scoreboard objectives add OMC.Player.ID dummy
 scoreboard objectives add OMC.Player.check.drop custom:drop
+scoreboard objectives add OMC.Player.check.enderpearl used:ender_pearl
+scoreboard objectives add OMC.Player.check.endereye used:ender_eye
 scoreboard objectives add OMC.Player.Mana.Strength dummy
 scoreboard objectives add OMC.Player.Mana.Points dummy
 scoreboard objectives add OMC.Player.Mana.Points.display dummy

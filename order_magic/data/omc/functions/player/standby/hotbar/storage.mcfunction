@@ -2,12 +2,12 @@
 
 $data modify storage omc:function Players.PC$(ID).hotbar append from entity @s Inventory[{Slot:$(Slot)b}]
 $execute as @s run item replace entity @s hotbar.$(Slot) with air
-$execute as @s if score @s OMC.storage.hotbar.slot matches 0 run item replace entity @s hotbar.$(Slot) with minecraft:firework_star
-$execute as @s if score @s OMC.storage.hotbar.slot matches 1 run item replace entity @s hotbar.$(Slot) with minecraft:blaze_powder
-$execute as @s if score @s OMC.storage.hotbar.slot matches 2 run item replace entity @s hotbar.$(Slot) with minecraft:tube_coral
-$execute as @s if score @s OMC.storage.hotbar.slot matches 3 run item replace entity @s hotbar.$(Slot) with minecraft:dead_bush
-$execute as @s if score @s OMC.storage.hotbar.slot matches 4 run item replace entity @s hotbar.$(Slot) with minecraft:pitcher_pod
-$execute as @s if score @s OMC.storage.hotbar.slot matches 5 run item replace entity @s hotbar.$(Slot) with minecraft:string
+$execute as @s if score @s OMC.storage.hotbar.slot matches 0 run item replace entity @s hotbar.$(Slot) with minecraft:ender_eye
+$execute as @s if score @s OMC.storage.hotbar.slot matches 1 run item replace entity @s hotbar.$(Slot) with minecraft:ender_eye
+$execute as @s if score @s OMC.storage.hotbar.slot matches 2 run item replace entity @s hotbar.$(Slot) with minecraft:ender_eye
+$execute as @s if score @s OMC.storage.hotbar.slot matches 3 run item replace entity @s hotbar.$(Slot) with minecraft:ender_eye
+$execute as @s if score @s OMC.storage.hotbar.slot matches 4 run item replace entity @s hotbar.$(Slot) with minecraft:ender_eye
+$execute as @s if score @s OMC.storage.hotbar.slot matches 5 run item replace entity @s hotbar.$(Slot) with minecraft:ender_eye
 $execute as @s if score @s OMC.storage.hotbar.slot matches 6..8 run item replace entity @s hotbar.$(Slot) with minecraft:barrier
 $execute as @s if score @s OMC.storage.hotbar.slot matches 0 run item modify entity @s hotbar.$(Slot) omc:item/material/none
 $execute as @s if score @s OMC.storage.hotbar.slot matches 1 run item modify entity @s hotbar.$(Slot) omc:item/material/fire

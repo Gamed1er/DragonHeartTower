@@ -12,6 +12,6 @@
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{Tags:[\"OMC.item.material\",\"Empty\"]}"
+		"tag": "{Tags:[\"OMC.item.material\",\"Empty\"],CustomModelData:48381009}"
 	}
 ]

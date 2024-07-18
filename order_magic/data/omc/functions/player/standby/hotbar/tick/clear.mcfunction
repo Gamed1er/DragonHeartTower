@@ -1,11 +1,11 @@
 clear @s #omc:material{Tags:["OMC.item.material"]}
 
-item replace entity @s hotbar.0 with minecraft:firework_star
-item replace entity @s hotbar.1 with minecraft:blaze_powder
-item replace entity @s hotbar.2 with minecraft:tube_coral
-item replace entity @s hotbar.3 with minecraft:dead_bush
-item replace entity @s hotbar.4 with minecraft:pitcher_pod
-item replace entity @s hotbar.5 with minecraft:string
+item replace entity @s hotbar.0 with minecraft:ender_eye
+item replace entity @s hotbar.1 with minecraft:ender_eye
+item replace entity @s hotbar.2 with minecraft:ender_eye
+item replace entity @s hotbar.3 with minecraft:ender_eye
+item replace entity @s hotbar.4 with minecraft:ender_eye
+item replace entity @s hotbar.5 with minecraft:ender_eye
 item replace entity @s hotbar.6 with minecraft:barrier
 item replace entity @s hotbar.7 with minecraft:barrier
 item replace entity @s hotbar.8 with minecraft:barrier

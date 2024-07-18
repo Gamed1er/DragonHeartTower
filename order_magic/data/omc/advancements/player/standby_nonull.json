@@ -22,15 +22,6 @@
 													}
 												}
 											}
-										},
-										{
-											"condition": "minecraft:entity_scores",
-											"entity": "this",
-											"scores": {
-												"OMC.Skill.ID": {
-													"min": 1
-												}
-											}
 										}
 									]
 								}
@@ -40,6 +31,15 @@
 								"entity": "this",
 								"predicate": {
 									"nbt": "{Tags:[\"OMC.Players.standby\"]}"
+								}
+							},
+							{
+								"condition": "minecraft:entity_scores",
+								"entity": "this",
+								"scores": {
+									"OMC.Skill.ID": {
+										"min": 1
+									}
 								}
 							}
 						]
@@ -54,6 +54,6 @@
 		}
 	},
 	"rewards": {
-		"function": "omc:player/standby/clear/tag"
+		"function": "omc:player/skill/list/release"
 	}
 }
