@@ -12,6 +12,6 @@
 	},
 	{
 		"function": "minecraft:set_nbt",
-		"tag": "{Tags:[\"OMC.item.material\",\"Earth\"],CustomModelData:48381005}"
+		"tag": "{Tags:[\"OMC.item.material\",\"Earth\"],CustomModelData:181005}"
 	}
 ]
