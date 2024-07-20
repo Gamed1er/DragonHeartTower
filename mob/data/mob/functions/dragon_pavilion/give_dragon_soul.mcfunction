@@ -1,0 +1,1 @@
+give @s minecraft:nether_star{dragon_soul:true,display:{Name:'[{"italic": false,"bold": false,"color": "gold","translate":"ToDH.item.dragon_soul"}]',Lore:['{"italic": false,"bold": false,"color": "white","translate": "ToDH.item.dragon_soul.description"}']},CustomModelData:1}

@@ -1,0 +1,26 @@
+{
+    "criteria": {
+      "dragon_soul": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:nether_star"
+              ],
+              "nbt": "{'dragon_soul':true}"
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "dragon_soul"
+      ]
+    ],
+    "rewards": {
+        "function": "mob:dragon_pavilion/get_dragon_soul"
+    }
+  }
+  
