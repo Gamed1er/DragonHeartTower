@@ -1,0 +1,18 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "source_entity": {
+                        "nbt": "{Tags:[\"regulator\"]}"
+                    }
+                }  
+            }
+        }
+    },
+    "rewards": {
+        "function": "boss:regulator/skill1"
+    }
+}
+  
