@@ -1,0 +1,27 @@
+{
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:effects_changed",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {}
+					}
+				],
+				"effects": {
+					"minecraft:water_breathing": {
+						"amplifier": {
+							"min": 100,
+							"max": 109
+						}
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "exef:effects/armored/check"
+	}
+}

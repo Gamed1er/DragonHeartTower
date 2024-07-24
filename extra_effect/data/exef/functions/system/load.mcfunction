@@ -1,0 +1,3 @@
+
+
+function exef:system/scoreboard
