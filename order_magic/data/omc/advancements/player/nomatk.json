@@ -25,6 +25,17 @@
 										"min": 1
 									}
 								}
+							},
+							{
+								"condition": "minecraft:entity_properties",
+								"entity": "this",
+								"predicate": {
+									"equipment": {
+										"mainhand": {
+											"nbt": "{Tags:[\"OMC.trigger\"]}"
+										}
+									}
+								}
 							}
 						]
 					}
