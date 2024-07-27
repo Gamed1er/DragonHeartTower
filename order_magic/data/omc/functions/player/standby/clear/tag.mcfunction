@@ -6,6 +6,8 @@ execute as @s store result storage omc:function reg.Slot int 1 run scoreboard pl
 execute as @s store result storage omc:function reg.ID int 1 run scoreboard players get @s OMC.Player.ID
 execute as @s run function omc:player/standby/clear/storage with storage omc:function reg
 
+scoreboard players set @s OMC.Skill.ID.Limit 1
+
 tag @s remove OMC.Players.standby
 
 advancement revoke @s only omc:player/standby_check
