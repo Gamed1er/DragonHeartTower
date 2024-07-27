@@ -1,5 +1,6 @@
 
 scoreboard players set @s OMC.Player.Mana.Points.Cost 200
+execute as @s run function omc:player/mana/points/reduction/oount
 
 title @s times 0t 10t 1t
 title @s subtitle ["",{"text":"[","bold":true,"italic":true,"strikethrough":true,"color":"dark_purple"},{"text":"奇點","bold":true,"italic":true,"underlined":true,"color":"gray"},{"text":"]","bold":true,"italic":true,"strikethrough":true,"color":"dark_purple"}]

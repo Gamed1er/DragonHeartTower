@@ -1,5 +1,6 @@
 
 scoreboard players set @s OMC.Player.Mana.Points.Cost 100
+execute as @s run function omc:player/mana/points/reduction/oount
 
 
 execute positioned 0.0 0.0 0.0 rotated as @s as @e[tag=OMC.marker.vector] run tp @s ^ ^ ^2.5
