@@ -21,3 +21,6 @@
     execute store result bossbar regulator max run data get entity @e[tag = regulator_mount, limit = 1] Health
     function boss:regulator/loop2
     team join Regulator @e[tag = regulator]
+
+
+    
