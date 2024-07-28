@@ -17,8 +17,10 @@
     execute as @a[nbt = {active_effects:[{id:"minecraft:levitation"}]}] run damage @s 3 arrow by @e[tag = regulator_mount, limit = 1]
 
 ## 循環
+    scoreboard players set temp Regulator 0
+    execute as @e[tag = enemy] run scoreboard players add temp Regulator 1
     execute if score SkillCoolDown Regulator matches ..-999 if score SkillChooser Regulator matches ..7 run effect clear @a levitation
-    execute if score SkillCoolDown Regulator matches ..-999 if score SkillChooser Regulator matches ..7 run summon zombie ~ ~ ~ {CustomNameVisible:1b,NoAI:0b,Health:40f,IsBaby:0b,Tags:["enemy","soul_tnt","boss_partner"],CustomName:'{"text":"遺恨血屍","color":"dark_red","bold":true}',ArmorItems:[{},{},{},{id:"minecraft:tnt",Count:1b,tag:{CustomModelData:1512,AttributeModifiers:[{AttributeName:"generic.max_health",Name:"generic.max_health",Amount:1,Operation:0,UUID:[I;1612454938,-1685371232,-2140089610,770212364]}]}}],ArmorDropChances:[0.085F,0.085F,0.085F,0.000F],Attributes:[{Name:generic.max_health,Base:40},{Name:generic.movement_speed,Base:0.35},{Name:generic.attack_damage,Base:0},{Name:generic.armor,Base:0}]}
+    execute if score SkillCoolDown Regulator matches ..-999 if score SkillChooser Regulator matches ..7 run execute if score temp Regulator matches ..7 run summon zombie ~ ~ ~ {CustomNameVisible:1b,NoAI:0b,Health:40f,IsBaby:0b,Tags:["enemy","soul_tnt","boss_partner"],CustomName:'{"text":"遺恨血屍","color":"dark_red","bold":true}',ArmorItems:[{},{},{},{id:"minecraft:tnt",Count:1b,tag:{CustomModelData:1512,AttributeModifiers:[{AttributeName:"generic.max_health",Name:"generic.max_health",Amount:1,Operation:0,UUID:[I;1612454938,-1685371232,-2140089610,770212364]}]}}],ArmorDropChances:[0.085F,0.085F,0.085F,0.000F],Attributes:[{Name:generic.max_health,Base:40},{Name:generic.movement_speed,Base:0.35},{Name:generic.attack_damage,Base:0},{Name:generic.armor,Base:0}]}
     execute if score SkillCoolDown Regulator matches ..-999 if score SkillChooser Regulator matches ..7 run item replace entity @s weapon.mainhand with bread 1
     execute if score SkillCoolDown Regulator matches ..-999 if score SkillChooser Regulator matches ..7 run scoreboard players add SkillChooser Regulator 1
     execute if score SkillCoolDown Regulator matches ..-999 if score SkillChooser Regulator matches ..7 run scoreboard players set SkillCoolDown Regulator -20
