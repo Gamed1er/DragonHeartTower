@@ -8,6 +8,15 @@
             "chars":[
                     "\uEff1"
                 ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:item/dragon_soul.png",
+            "ascent": 0,
+            "height": 0,
+            "chars":[
+                    "\uEff2"
+                ]
         }
     ]
 }
