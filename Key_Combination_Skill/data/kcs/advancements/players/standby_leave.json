@@ -1,0 +1,52 @@
+{
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:all_of",
+						"terms": [
+							{
+								"condition": "minecraft:inverted",
+								"term": {
+									"condition": "minecraft:any_of",
+									"terms": [
+										{
+											"condition": "minecraft:entity_properties",
+											"entity": "this",
+											"predicate": {
+												"equipment": {
+													"offhand": {
+														"tag": "kcs:weapons",
+														"nbt": "{Tags:[\"KCS.trigger\"]}"
+													}
+												}
+											}
+										}
+									]
+								}
+							},
+							{
+								"condition": "minecraft:entity_properties",
+								"entity": "this",
+								"predicate": {
+									"nbt": "{Tags:[\"KCS.Players.standby\"]}"
+								}
+							}
+						]
+					}
+				],
+				"items": [
+					{
+						"tag": "kcs:weapons",
+						"nbt": "{Tags:[\"KCS.trigger\"]}"
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "kcs:main/players/standby/clear"
+	}
+}
