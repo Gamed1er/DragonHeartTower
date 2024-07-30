@@ -1,5 +1,5 @@
 scoreboard players reset @s ToDH.BattleTime.tick
-execute store result score @s stiff.bodylimit.add run random value 120..160
+execute store result score @s stiff.bodylimit.add run random value 240..280
 function stiff:main/do/damage/toughness
 
 
