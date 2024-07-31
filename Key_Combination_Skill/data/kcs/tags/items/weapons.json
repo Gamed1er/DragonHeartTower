@@ -4,6 +4,9 @@
       "#kcs:axe",
       "#kcs:pickaxe",
       "#kcs:shovel",
-      "#kcs:hoe"
+      "#kcs:hoe",
+      "bow",
+      "crossbow",
+      "trident"
     ]
   }

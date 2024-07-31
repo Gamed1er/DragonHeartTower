@@ -1,7 +1,7 @@
 
 
 tag @s add KCS.Players.standby
-execute as @s at @s run summon interaction ~ ~1 ~ {Tags:["KCS.Skill.interation.key"],width:2.0f,height:1.5f}
+execute as @s at @s run summon interaction ~ ~.75 ~ {Tags:["KCS.Skill.interation.key"],width:2.5f,height:2f}
 function kcs:main/players/standby/schedule/tag
 scoreboard players reset @s KCS.Skill.Hurt.Count
 scoreboard players reset @s KCS.Skill.ID

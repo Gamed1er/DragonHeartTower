@@ -1,0 +1,28 @@
+{
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:all_of",
+						"terms": [
+							{
+								"condition": "minecraft:entity_scores",
+								"entity": "this",
+								"scores": {
+									"KCS.Skill.arrow.Crit.Tick": {
+										"max": 81
+									}
+								}
+							}
+						]
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "kcs:main/skill/id/bow/112/check"
+	}
+}
