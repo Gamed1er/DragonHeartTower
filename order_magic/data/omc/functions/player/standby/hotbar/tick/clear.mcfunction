@@ -18,3 +18,4 @@ item modify entity @s hotbar.5 omc:item/material/wind
 item modify entity @s hotbar.6 omc:item/material/empty
 item modify entity @s hotbar.7 omc:item/material/empty
 item modify entity @s hotbar.8 omc:item/material/empty
+execute as @e[type=item,nbt={Item:{tag:{Tags:["OMC.item.material"]}}},sort=nearest] as @s run kill @s
