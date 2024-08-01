@@ -6,5 +6,6 @@ $execute as @s at @s positioned ~$(X) ~9 ~$(Z) summon arrow run function kcs:mai
 
 
 execute as @s if score @s KCS.Skill.arrow.Rain.Tick matches ..0 run return run tag @s remove KCS.arrow.rain
+execute as @s if score @s KCS.Skill.arrow.Rain.Tick matches ..1 run data modify entity @s Glowing set value 0b
 execute as @s run scoreboard players remove @s KCS.Skill.arrow.Rain.Tick 1
 
