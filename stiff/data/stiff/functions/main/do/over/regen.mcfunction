@@ -5,8 +5,8 @@ execute as @s if score @s stiff.bodylimit > @s stiff.bodylimit.Max run scoreboar
 
 scoreboard players remove @s stiff.bodylimit 10
 scoreboard players operation @s stiff.bodylimit -= @s stiff.resilience
-effect give @s slowness 1 4 true
-effect give @s weakness 1 3 true
+effect give @s slowness 1 5 true
+effect give @s weakness 1 2 true
 effect give @s mining_fatigue 1 4 true
 effect give @s jump_boost 1 252 true
 

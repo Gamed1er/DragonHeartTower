@@ -34,13 +34,6 @@ scoreboard objectives add Math dummy
 
 
 
-# 100.0
-scoreboard players set @a OMC.Player.Mana.Points.Max 1000
-# 0.1/tick
-scoreboard players set @a OMC.Player.Mana.Points.Regen 20
-# 4.0
-scoreboard players set @a OMC.Player.Mana.Strength 40 
-scoreboard players set @a OMC.Skill.ID.Limit 1
 
 
 scoreboard players set 1 Math 1

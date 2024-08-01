@@ -18,5 +18,3 @@ scoreboard players set tick Math 20
 scoreboard players set 100 Math 100
 scoreboard players set 1000 Math 1000
 scoreboard players set 10000 Math 10000
-scoreboard players set @a dodge.Speed 650
-scoreboard players set @a dodgeCD.limit 40
