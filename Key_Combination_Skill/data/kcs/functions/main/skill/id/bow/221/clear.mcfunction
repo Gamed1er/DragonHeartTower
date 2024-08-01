@@ -1,1 +1,1 @@
-kill @e[type=arrow,tag=KCS.arrow.rain.fake,nbt={inGround:1b}]
+kill @e[type=arrow,tag=KCS.arrow.rain.prefab,nbt={inGround:1b}]
