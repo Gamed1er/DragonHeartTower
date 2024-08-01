@@ -12,5 +12,5 @@ execute unless score @s KCS.Players.arrow.count matches 3.. run function kcs:mai
 
 execute at @s as @e[tag=KCS.marker.vector] positioned 0.0 0.0 0.0 rotated ~-75 ~ run tp @s ~ ~ ~ ~ ~
 tag @s add KCS.Players.arrow.Owner
-execute if score @s KCS.Players.arrow.count matches 3.. at @s anchored eyes positioned ^ ^ ^ rotated ~-60 ~ run function kcs:main/skill/id/bow/222/sector
+execute if score @s KCS.Players.arrow.count matches 3.. at @s anchored eyes positioned ^ ^ ^ rotated ~-45 ~ run function kcs:main/skill/id/bow/222/sector
 tag @s remove KCS.Players.arrow.Owner

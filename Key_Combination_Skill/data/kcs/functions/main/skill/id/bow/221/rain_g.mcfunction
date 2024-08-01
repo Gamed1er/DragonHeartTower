@@ -1,7 +1,7 @@
 
 
 
-$execute as @s at @s positioned ~$(X) ~9 ~$(Z) summon arrow run function kcs:main/skill/id/bow/221/arrow
+$execute as @s at @s positioned ~$(X) ~7.5 ~$(Z) summon arrow run function kcs:main/skill/id/bow/221/arrow
 
 
 

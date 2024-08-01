@@ -11,7 +11,7 @@
 								"condition": "minecraft:entity_properties",
 								"entity": "this",
 								"predicate": {
-									"nbt": "{Tags:[\"KCS.Players.arrow.rain\"]}"
+									"nbt": "{Tags:[\"KCS.Players.arrow.sniper\"]}"
 								}
 							},
 							{
@@ -30,6 +30,6 @@
 		}
 	},
 	"rewards": {
-		"function": "kcs:main/skill/id/bow/221/shoot"
+		"function": "kcs:main/skill/id/bow/112/check"
 	}
 }

@@ -10,4 +10,4 @@ playsound entity.arrow.shoot record @a[distance=..16] ~ ~ ~ 0.7 0.7 0.7
 
 clear @s arrow 1
 scoreboard players add @s KCS.Skill.Angle 1
-execute unless score @s KCS.Skill.Angle matches 3.. rotated ~60 ~ positioned ^ ^ ^ run function kcs:main/skill/id/bow/222/sector
+execute unless score @s KCS.Skill.Angle matches 3.. rotated ~45 ~ positioned ^ ^ ^ run function kcs:main/skill/id/bow/222/sector

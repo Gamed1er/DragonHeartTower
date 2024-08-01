@@ -23,6 +23,6 @@
 		}
 	},
 	"rewards": {
-		"function": "kcs:main/skill/id/bow/112/check"
+		"function": "kcs:main/skill/id/bow/112/c"
 	}
 }
