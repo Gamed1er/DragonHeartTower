@@ -3,4 +3,3 @@ summon skeleton ~ ~ ~ {CustomNameVisible:1b,NoAI:1b,Health:20f,Tags:["enemy","re
 summon skeleton ~ ~ ~ {Tags:["enemy", "boss_partner"]}
 summon skeleton ~ ~ ~ {Tags:["enemy", "boss_partner"]}
 summon skeleton ~ ~ ~ {Tags:["enemy", "boss_partner"]}
-
