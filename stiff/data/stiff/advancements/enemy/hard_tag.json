@@ -10,9 +10,7 @@
 							{
 								"condition": "minecraft:entity_properties",
 								"entity": "this",
-								"predicate": {
-									"nbt": "{Tags:[\"ToDH.HardAttacker\"]}"
-								}
+								"predicate": {}
 							}
 						]
 					}
@@ -25,7 +23,10 @@
 								"id": "stiff:hard",
 								"expected": false
 							}
-						]
+						],
+						"direct_entity": {
+							"nbt": "{Tags:[\"ToDH.HardAttacker\"]}"
+						}
 					}
 				},
 				"entity": [
