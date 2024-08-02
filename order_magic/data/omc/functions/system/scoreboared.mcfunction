@@ -22,6 +22,7 @@ scoreboard objectives add OMC.Check.Fire.Tick dummy
 scoreboard objectives add OMC.Skill.ID dummy
 scoreboard objectives add OMC.Skill.ID.Limit dummy
 scoreboard objectives add OMC.Skill.ID.Count dummy
+scoreboard objectives add OMC.Skill.1.Ench.Time custom:play_time
 
 scoreboard objectives add OMC.storage.reg dummy
 scoreboard objectives add OMC.storage.hotbar.slot dummy

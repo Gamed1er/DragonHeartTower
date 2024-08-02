@@ -8,5 +8,5 @@ title @s subtitle ["",{"text":"[","bold":true,"italic":true,"strikethrough":true
 title @s title [""]
 
 tag @s add KCS.attacker.detect
-execute at @s positioned ~ ~0.25 ~ rotated ~ ~ positioned ^ ^ ^.25 run function kcs:main/skill/id/sword/211/sector
+execute at @s positioned ~ ~0.25 ~ rotated ~ 0 positioned ^ ^ ^.25 run function kcs:main/skill/id/sword/211/sector
 tag @s remove KCS.attacker.detect
