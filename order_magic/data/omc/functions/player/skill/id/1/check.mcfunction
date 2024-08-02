@@ -2,7 +2,7 @@
 tag @s add OMC.attacker.detect
 
 function omc:player/mana/damage/count
-execute store result storage omc:function Battle.DMG float 0.075 run scoreboard players get @s OMC.Player.Mana.Damage
+execute store result storage omc:function Battle.DMG float 0.05 run scoreboard players get @s OMC.Player.Mana.Damage
 
 scoreboard players set @s OMC.Player.Mana.Points.Cost 50
 execute as @s run function omc:player/mana/points/reduction/oount

@@ -1,7 +1,5 @@
 
 
-execute as @s at @s anchored eyes positioned ^ ^ ^.75 as @e[type=item,limit=1,sort=nearest,nbt={Item:{tag:{Tags:["OMC.trigger"]}}}] run data modify entity @s PickupDelay set value 0
-execute as @s at @s anchored eyes positioned ^ ^ ^.75 as @e[type=item,limit=1,sort=nearest,nbt={Item:{tag:{Tags:["OMC.trigger"]}}}] at @s run tp @s @p[tag=OMC.Players.standby]
 
 execute positioned 0.0 0.0 0.0 rotated as @s as @e[tag=OMC.marker.vector] run tp @s ^ ^ ^20.0
 execute store result storage omc:function Skill.vector.X float 0.001 run data get entity @e[tag=OMC.marker.vector,limit=1] Pos[0] 100

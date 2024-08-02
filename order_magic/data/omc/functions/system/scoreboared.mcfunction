@@ -1,5 +1,6 @@
 
 scoreboard objectives add OMC.Player.ID dummy
+scoreboard objectives add OMC.Player.check.carrotstick used:carrot_on_a_stick
 scoreboard objectives add OMC.Player.check.drop custom:drop
 scoreboard objectives add OMC.Player.check.enderpearl used:ender_pearl
 scoreboard objectives add OMC.Player.check.endereye used:ender_eye
