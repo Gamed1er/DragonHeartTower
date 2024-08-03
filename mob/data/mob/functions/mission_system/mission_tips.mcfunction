@@ -1,0 +1,8 @@
+execute as @s[tag=tutor] at @s run particle happy_villager ~ ~2 ~ 0 0 0 0 1 force @a[tag=meet_tutor]
+execute as @s[tag=opera] at @s run particle happy_villager ~ ~2 ~ 0 0 0 0 1 force @a[tag=meet_opera]
+execute as @s[tag=spacy] at @s run particle happy_villager ~ ~2 ~ 0 0 0 0 1 force @a[tag=meet_spacy]
+execute as @s[tag=tokesor] at @s run particle happy_villager ~ ~2 ~ 0 0 0 0 1 force @a[tag=meet_tokesor]
+execute as @s[tag=madeya] at @s run particle happy_villager ~ ~2 ~ 0 0 0 0 1 force @a[tag=meet_madeya]
+execute as @s[tag=foot_of_tower] at @s run particle happy_villager ~ ~2 ~ 0 0 0 0 1 force @a[tag=go_to_foot_of_tower]
+execute as @s[tag=tower_gate] at @s run particle happy_villager ~ ~2 ~ 0 0 0 0 1 force @a[tag=go_to_tower_gate]
+execute as @s[tag=barracks_square] at @s run particle happy_villager ~ ~2 ~ 0 0 0 0 1 force @a[tag=go_to_square]

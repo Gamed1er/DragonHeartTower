@@ -1,0 +1,1 @@
+summon drowned ~ ~ ~ {CustomName:'{"italic": false,"bold": true,"color": "red","translate":"ToDH.mob.poison_zombie"}',CustomNameVisible:true,Attributes:[{Name:"minecraft:generic.max_health",Base:22}],Health:22,DeathLootTable:"mob:normal",Tags:[enemy,have_not_set_body_limit,poison_zombie]}

@@ -1,0 +1,1 @@
+summon minecraft:marker ~ ~ ~ {Tags:[magic_doll_bow_pos]}

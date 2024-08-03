@@ -9,3 +9,5 @@ tag @e[tag = flogger1, limit = 10] add temp
 kill @e[tag = flogger1, tag = !temp]
 tag @e[tag = temp] remove temp
 spreadplayers ~ ~ 15 3 false @e[tag = flogger1]
+
+function boss:flogger/skill1_tellraw

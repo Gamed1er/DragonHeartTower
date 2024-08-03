@@ -1,0 +1,3 @@
+summon zombie ~ ~ ~ {CustomName:'[{"bold": true,"italic": false, "translate":"ToDH.mob.zombie","color": "red"}]',CustomNameVisible:true,Attributes:[{Name:"minecraft:generic.max_health",Base:15},{Name:"minecraft:generic.attack_damage",Base:2}],Health:15,Tags:[zombie,enemy,have_not_set_body_limit],DeathLootTable:"mob:normal",PersistenceRequired:true}
+#execute at @s run scoreboard players set @e[type=zombie,sort=nearest,] stiff.bodylimit.Max 80
+function mob:floor_controller/mob_join_floor

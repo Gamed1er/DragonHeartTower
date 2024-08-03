@@ -2,6 +2,9 @@
   "values": [
     "#minecraft:arrows",
     "#minecraft:skeletons",
-    "#minecraft:zombies"
+    "#minecraft:zombies",
+    "minecraft:item",
+    "minecraft:vex",
+    "magma_cube"
   ]
 }

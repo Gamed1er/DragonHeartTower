@@ -42,4 +42,33 @@ item replace entity @s container.34 with air
 item replace entity @s container.35 with air
 item replace entity @s container.36 with air
 
+scoreboard players set floor_0_lock floor_lock 0
+scoreboard players set floor_1_lock floor_lock 0
+scoreboard players set floor_2_lock floor_lock 0
+scoreboard players set floor_3_lock floor_lock 0
+scoreboard players set floor_3_5_lock floor_lock 0
+scoreboard players set floor_4_lock floor_lock 0
+scoreboard players set floor_5_lock floor_lock 0
+scoreboard players set floor_6_lock floor_lock 0
+scoreboard players set floor_6_5_lock floor_lock 0
+scoreboard players set floor_7_lock floor_lock 0
+scoreboard players set floor_8_lock floor_lock 0
+scoreboard players set floor_9_lock floor_lock 0
+scoreboard players set floor_9_5_lock floor_lock 0
+scoreboard players set floor_10_lock floor_lock 0
+
+execute as @s store result storage mob:function soul_upgrade.attack_damage float 0.01 run scoreboard players get @s attack_damage
+execute as @s store result storage mob:function soul_upgrade.max_health float 0.01 run scoreboard players get @s max_health
+execute as @s run function mob:dragon_pavilion/soul_upgrade/set_max_health with storage mob:function soul_upgrade
+
+effect give @s regeneration 5 10
+effect give @s instant_health 1 255
 tp @s @e[type=marker,limit=1,tag=dragon_pavilion] 
+advancement revoke @s only mob:stepping_on_bedrock
+execute if score @s triggered_dragon_pavilion matches 1 run tag @s add in_dragon_pavilion
+execute if score @s triggered_dragon_pavilion matches 1 run function mob:dragon_pavilion/dragon_pavilion_awake
+scoreboard players set @s triggered_dragon_pavilion 1
+
+execute as @a[tag=trigger_dragon_pavilion] run scoreboard players set @e[tag=homunculus] plot_progress 22
+execute as @a[tag=trigger_dragon_pavilion] run scoreboard players set @e[tag=homunculus] plot_type 0
+tag @a[tag=trigger_dragon_pavilion] remove trigger_dragon_pavilion

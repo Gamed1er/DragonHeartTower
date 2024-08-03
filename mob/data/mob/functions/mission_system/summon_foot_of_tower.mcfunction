@@ -1,0 +1,1 @@
+summon minecraft:marker ~ ~ ~ {Tags:[mission_point,foot_of_tower]}

@@ -1,0 +1,2 @@
+attribute @s generic.attack_damage modifier remove ff718ecb-c0ae-4cb7-b2d7-881d226776bc
+$attribute @s generic.attack_damage modifier add ff718ecb-c0ae-4cb7-b2d7-881d226776bc "attack_damage_multiplier" $(max_health) multiply_base
