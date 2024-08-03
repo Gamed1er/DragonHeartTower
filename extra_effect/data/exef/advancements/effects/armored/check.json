@@ -13,8 +13,8 @@
 				"effects": {
 					"minecraft:water_breathing": {
 						"amplifier": {
-							"min": 100,
-							"max": 109
+							"min": 0,
+							"max": 9
 						}
 					}
 				}
