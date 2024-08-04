@@ -35,6 +35,6 @@
 		}
 	},
 	"rewards": {
-		"function": "omc:player/mana/points/regen"
+		"function": "omc:player/mana/points/regen/check"
 	}
 }

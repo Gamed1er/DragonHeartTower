@@ -8,3 +8,4 @@ execute store result storage omc:function Skill.vector.Z float 0.001 run data ge
 scoreboard players set @s OMC.Player.Mana.Points.Cost 30
 execute as @s run function omc:player/mana/points/reduction/oount
 execute as @s if score @s OMC.Player.Mana.Points matches 1.. run function omc:player/skill/nomatk/summon with storage omc:function Skill.vector
+function omc:player/mana/points/text
