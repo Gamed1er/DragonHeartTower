@@ -1,0 +1,22 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": {
+            "stepping_on": {
+              "block": {
+                "blocks": [
+                  "minecraft:black_terracotta"
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "mob:floor_controller/down_floor"
+    }
+  }
+  

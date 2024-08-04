@@ -1,0 +1,14 @@
+execute as @e[tag=stairs,tag=floor_0] at @s run clone 61 -61 47 63 -51 45 ~-1 ~-1 ~-1
+execute as @e[tag=stairs,tag=floor_1] at @s run clone 61 -61 47 63 -51 45 ~-1 ~-1 ~-1
+execute as @e[tag=stairs,tag=floor_2] at @s run clone 61 -61 47 63 -51 45 ~-1 ~-1 ~-1
+execute as @e[tag=stairs,tag=floor_3] at @s run clone 56 -61 50 58 -41 52 ~-1 ~-1 ~-1
+execute as @e[tag=stairs,tag=floor_3_5] at @s run clone 61 -61 47 63 -51 45 ~-1 ~-1 ~-1
+execute as @e[tag=stairs,tag=floor_4] at @s run clone 61 -61 47 63 -51 45 ~-1 ~-1 ~-1
+execute as @e[tag=stairs,tag=floor_5] at @s run clone 61 -61 47 63 -51 45 ~-1 ~-1 ~-1
+execute as @e[tag=stairs,tag=floor_6] at @s run clone 56 -61 50 58 -41 52 ~-1 ~-1 ~-1
+execute as @e[tag=stairs,tag=floor_6_5] at @s run clone 61 -61 47 63 -51 45 ~-1 ~-1 ~-1
+execute as @e[tag=stairs,tag=floor_7] at @s run clone 61 -61 47 63 -51 45 ~-1 ~-1 ~-1
+execute as @e[tag=stairs,tag=floor_8] at @s run clone 61 -61 47 63 -51 45 ~-1 ~-1 ~-1
+execute as @e[tag=stairs,tag=floor_9] at @s run clone 56 -61 50 58 -41 52 ~-1 ~-1 ~-1
+execute as @e[tag=stairs,tag=floor_9_5] at @s run clone 61 -61 47 63 -51 45 ~-1 ~-1 ~-1
+execute as @e[tag=stairs,tag=floor_10] at @s run clone 56 -61 50 58 -41 52 ~-1 ~-1 ~-1

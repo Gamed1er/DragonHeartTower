@@ -1,0 +1,2 @@
+summon zombie ~ ~ ~ {CustomName:'{"italic": false,"bold": true,"color": "red","translate":"ToDH.mob.(mob_name這裡填這隻怪的名字，用英文。不知道英文該叫什麼用CHATGPT翻譯WW)"}',CustomNameVisible:true,active_effects:[],Attributes:[{Name:"minecraft:generic.max_health",Base:20},{Name:"minecraft:generic.attack_damage",Base:4},{Name:"minecraft:generic.movement_speed",Base:0.3}],Health:20,PersistenceRequired:true,DeathLootTable:"mob:normal",Tags:[enemy,have_not_set_body_limit,new_born,mob_name]}
+function mob:floor_controller/mob_join_floor

@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "nbt": "{Tags:[break_heavy_magic_doll_bow]}"
+        }
+      }
+    }
+  },
+  "rewards": {"function": "mob:mission_system/missions/break_heavy_magic_doll_bow"}
+}

@@ -1,0 +1,1 @@
+summon minecraft:marker ~ ~ ~ {Tags:[wooden_stakes_bow_pos]}

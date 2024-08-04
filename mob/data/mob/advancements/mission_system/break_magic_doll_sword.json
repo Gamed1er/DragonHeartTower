@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "nbt": "{Tags:[break_magic_doll_sword]}"
+        }
+      }
+    }
+  },
+  "rewards": {"function": "mob:mission_system/missions/break_magic_doll_sword"}
+}

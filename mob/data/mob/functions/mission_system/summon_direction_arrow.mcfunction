@@ -1,0 +1,2 @@
+execute at @s run summon item_display ~ ~ ~ {item:{id:"minecraft:coal",Count:1,tag:{CustomModelData:999}},item_display:"thirdperson_righthand",transformation:{left_rotation:[1f,0f,0f,0f],right_rotation:[0f,0f,1f,0f],scale:[1f,1f,1f],translation:[0f,0f,0f]},Tags:[direction_arrow]}
+execute as @e[type=item_display,tag=direction_arrow,sort=nearest,limit=1] at @s run scoreboard players operation @s ID_system = @p[sort=nearest,limit=1] ID_system

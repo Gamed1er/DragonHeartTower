@@ -1,7 +1,7 @@
 
 
 execute as @s at @s run kill @e[limit=1,sort=nearest,tag=ToDH.dodge.M]
-execute at @s run tp @s ~ ~ ~
+execute at @s run ride @s dismount
 execute as @s run scoreboard players reset @s dodgeCD
 execute as @s run tag @s remove dodge
 advancement revoke @s only dodge:ready

@@ -1,0 +1,1 @@
+execute at @e[tag=floor_0,tag=stairs] run clone 58 -61 45 56 -51 47 ~-1 ~-1 ~-1

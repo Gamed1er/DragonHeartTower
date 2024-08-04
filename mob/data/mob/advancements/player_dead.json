@@ -1,0 +1,9 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:entity_killed_player"
+      }
+    },
+    "rewards": {"function": "mob:dragon_pavilion/player_being_killed"}
+  }
+  

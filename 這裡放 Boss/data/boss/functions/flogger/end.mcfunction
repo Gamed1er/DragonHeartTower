@@ -1,1 +1,6 @@
 bossbar set flogger visible false
+execute if score now_floor floor_controller matches 90 run scoreboard players set Random flogger 4
+execute unless score now_floor floor_controller matches 90 run scoreboard players set Random flogger 1
+
+execute if score Random flogger matches 1 run tellraw @a [{"italic": false,"bold": true,"color": "red","text": "["},{"text":"鐵律鞭叱者 - ","color":"gray","bold":true},{"text":"亞巴頓","color":"#EE00FF","bold":true},{"italic": false,"bold": true,"color": "red","text": "]"},{"italic": false,"bold": true,"color": "white","text": ""},{"italic": false,"bold": false,"color": "white","translate": "ToDH.plot.flogger.battle_msg.death"}]
+execute if score Random flogger matches 4 unless entity @e[tag = soul_locker] run tellraw @a [{"italic": false,"bold": true,"color": "red","text": "["},{"text":"鐵律鞭叱者 - ","color":"gray","bold":true},{"text":"亞巴頓","color":"#EE00FF","bold":true},{"italic": false,"bold": true,"color": "red","text": "]"},{"italic": false,"bold": true,"color": "white","text": ""},{"italic": false,"bold": false,"color": "white","translate": "ToDH.plot.flogger_and_soul_locker.battle_msg.death"}]

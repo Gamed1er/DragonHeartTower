@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "nbt": "{Tags:[meet_spacy]}"
+        }
+      }
+    }
+  },
+  "rewards": {"function": "mob:mission_system/missions/meet_spacy"}
+}

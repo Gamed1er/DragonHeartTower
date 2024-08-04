@@ -1,0 +1,2 @@
+execute as @s run summon ravager ^ ^ ^ {Tags:[magic_doll,enemy,have_not_set_body_limit,ToDH.HardAttacker],ArmorItems:[{},{},{},{}],ArmorDropChances:[0f,0f,0f,0f],HandItems:[{},{}],Attributes:[{Base:30,Name:"minecraft:generic.max_health"}],Health:30,DeathLootTable:"",NoAI:false}
+function mob:floor_controller/mob_join_floor

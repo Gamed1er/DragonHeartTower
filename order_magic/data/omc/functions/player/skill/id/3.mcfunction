@@ -9,4 +9,5 @@ title @s title [""]
 execute at @s as @s unless score @s OMC.Player.Mana.Points >= @s OMC.Player.Mana.Points.Cost run function omc:player/skill/list/text/not_enough
 
 execute at @s as @s if score @s OMC.Player.Mana.Points >= @s OMC.Player.Mana.Points.Cost as @e[tag=enemy,distance=..8] as @s run effect give @s slowness 15 0 false
+execute at @s as @s if score @s OMC.Player.Mana.Points >= @s OMC.Player.Mana.Points.Cost as @e[tag=enemy,distance=..8] as @s run function stiff:main/do/damage/enemy/normal/stiff
 execute at @s as @s if score @s OMC.Player.Mana.Points >= @s OMC.Player.Mana.Points.Cost run scoreboard players operation @s OMC.Player.Mana.Points -= @s OMC.Player.Mana.Points.Cost

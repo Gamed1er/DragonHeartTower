@@ -1,0 +1,2 @@
+summon skeleton ~ ~ ~ {CustomName:'[{"bold": true,"italic": false, "translate":"ToDH.mob.skeleton","color": "red"}]',CustomNameVisible:true,Attributes:[{Name:"minecraft:generic.max_health",Base:10},{Name:"minecraft:generic.attack_damage",Base:6}],Health:10,Tags:[skeleton,enemy,have_not_set_body_limit],DeathLootTable:"mob:normal",PersistenceRequired:true}
+function mob:floor_controller/mob_join_floor

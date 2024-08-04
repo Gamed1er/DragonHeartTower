@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "nbt": "{Tags:[go_to_foot_of_tower]}"
+        }
+      }
+    }
+  },
+  "rewards": {"function": "mob:mission_system/missions/go_to_foot_of_tower"}
+}
