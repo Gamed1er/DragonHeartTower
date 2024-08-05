@@ -20,6 +20,7 @@ scoreboard objectives add OMC.Player.Mana.Damage dummy
 
 scoreboard objectives add OMC.Check.Fire.Tick dummy
 
+scoreboard objectives add OMC.Skill.Bullet.Exist.Time dummy
 scoreboard objectives add OMC.Skill.ID dummy
 scoreboard objectives add OMC.Skill.ID.Limit dummy
 scoreboard objectives add OMC.Skill.ID.Count dummy
