@@ -1,0 +1,42 @@
+# Idol created via BDEngine
+
+execute as @e[type=minecraft:block_display,tag=idol1722959148349,sort=nearest,limit=1] at @s run tag @s add animation_loop
+function idol:animate/animation_keyframe0_1
+function idol:animate/animation_keyframe0_2
+function idol:animate/animation_keyframe0_3
+function idol:animate/animation_keyframe0_4
+function idol:animate/animation_keyframe0_5
+function idol:animate/animation_keyframe0_6
+function idol:animate/animation_keyframe0_7
+function idol:animate/animation_keyframe0_8
+function idol:animate/animation_keyframe0_9
+function idol:animate/animation_keyframe0_10
+function idol:animate/animation_keyframe0_11
+function idol:animate/animation_keyframe0_12
+function idol:animate/animation_keyframe0_13
+function idol:animate/animation_keyframe0_14
+function idol:animate/animation_keyframe0_15
+function idol:animate/animation_keyframe0_16
+function idol:animate/animation_keyframe0_17
+function idol:animate/animation_keyframe0_18
+function idol:animate/animation_keyframe0_19
+function idol:animate/animation_keyframe0_20
+function idol:animate/animation_keyframe0_21
+function idol:animate/animation_keyframe0_22
+function idol:animate/animation_keyframe0_23
+function idol:animate/animation_keyframe0_24
+function idol:animate/animation_keyframe0_25
+function idol:animate/animation_keyframe0_26
+function idol:animate/animation_keyframe0_27
+function idol:animate/animation_keyframe0_28
+function idol:animate/animation_keyframe0_29
+function idol:animate/animation_keyframe0_30
+function idol:animate/animation_keyframe0_31
+function idol:animate/animation_keyframe0_32
+function idol:animate/animation_keyframe0_33
+function idol:animate/animation_keyframe0_34
+function idol:animate/animation_keyframe0_35
+function idol:animate/animation_keyframe0_36
+function idol:animate/animation_keyframe0_37
+function idol:animate/animation_keyframe0_38
+function idol:animate/animation_keyframe0_39
