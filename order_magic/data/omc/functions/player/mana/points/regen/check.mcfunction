@@ -12,6 +12,6 @@ execute store result storage omc:function Mana.Regen.remove int 20 run data get 
 execute if score @s OMC.Player.Mana.Points.Regen.TickperSec matches 20.. run function omc:player/mana/points/regen/count with storage omc:function Mana.Regen
 
 
-function omc:player/mana/points/text
+# function omc:player/mana/points/text
 
 advancement revoke @s only omc:player/mana/points/regen
