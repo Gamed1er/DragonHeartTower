@@ -3,3 +3,4 @@ execute if entity @e[tag=ToDH.enemy.Boss2,tag=boss] run schedule function todh_b
 execute as @e[tag=ToDH.enemy.Boss2,tag=boss] run function todh_b2:animator/check
 
 
+execute unless entity @e[tag=ToDH.enemy.Boss2,tag=boss] run function todh_b2:animator/clear_all
