@@ -1,0 +1,6 @@
+bossbar set assassin visible false
+execute if score now_floor floor_controller matches 90 run scoreboard players set Random assassin 4
+execute unless score now_floor floor_controller matches 90 run scoreboard players set Random assassin 1
+
+execute if score Random assassin matches 1 run tellraw @a [{"italic": false,"bold": true,"color": "red","text": "["},{"text":"癡盲鎖魂人 - ","color":"gray","bold":true},{"text":"厄爾","color":"#ff6464","bold":true},{"italic": false,"bold": true,"color": "red","text": "]"},{"italic": false,"bold": true,"color": "white","text": ""},{"italic": false,"bold": false,"color": "white","translate": "ToDH.plot.assassin.battle_msg.death"}]
+execute if score Random assassin matches 4 unless entity @e[tag = assassin] run tellraw @a [{"italic": false,"bold": true,"color": "red","text": "["},{"text":"癡盲鎖魂人 - ","color":"gray","bold":true},{"text":"厄爾","color":"#ff6464","bold":true},{"italic": false,"bold": true,"color": "red","text": "]"},{"italic": false,"bold": true,"color": "white","text": ""},{"italic": false,"bold": false,"color": "white","translate": "ToDH.plot.flogger_and_assassin.battle_msg.death"}]
