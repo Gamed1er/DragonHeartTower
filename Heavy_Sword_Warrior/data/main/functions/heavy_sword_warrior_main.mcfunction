@@ -1,0 +1,1 @@
+execute as @s at @s if score @s Heavy_Sword_Warrior_Timer = random var if entity @p[distance=..4] if score @s stun_timer = 0 var run function main:active_skill
