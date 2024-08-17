@@ -1,7 +1,7 @@
 ## 創建 ScoreBoard
     scoreboard objectives add Regulator dummy "叱嘯監管者 - 麥迪根"
     scoreboard players set Health Regulator 0
-    scoreboard players set Skill3 Regulator 3
+    scoreboard players set Skill3 Regulator 6
     scoreboard players set SkillCoolDown Regulator 120
     scoreboard players set SkillChooser Regulator -1
 
@@ -21,6 +21,3 @@
     execute store result bossbar regulator max run data get entity @e[tag = regulator_mount, limit = 1] Health
     function boss:regulator/loop2
     team join Regulator @e[tag = regulator]
-
-
-    

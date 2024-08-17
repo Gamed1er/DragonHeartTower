@@ -1,6 +1,0 @@
-##
- # normal.mcfunction
- # 
- #
- # Created by .
-##

@@ -14,6 +14,8 @@ summon warden ~ ~ ~ {Health:50f,Tags:["enemy","boss_partner","regulator_helper"]
 
 effect give @e[tag = regulator] instant_damage 1 3
 effect give @e[tag = regulator_mount] instant_health 1 3
+effect give @e[tag = regulator] instant_damage 1 3
+effect give @e[tag = regulator_mount] instant_health 1 3
 scoreboard players remove Skill3 Regulator 1
 scoreboard players set SkillCoolDown Regulator 240
 

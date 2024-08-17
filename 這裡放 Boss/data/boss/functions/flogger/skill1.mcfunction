@@ -9,3 +9,4 @@ kill @e[tag = flogger1, tag = !temp]
 tag @e[tag = temp] remove temp
 
 function boss:flogger/skill1_tellraw
+function boss:flogger/skill1_tellraw

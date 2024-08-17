@@ -1,5 +1,6 @@
 execute if score SkillCoolDown flogger matches 0 run data modify entity @s NoAI set value true
 execute if score SkillCoolDown flogger matches 0 facing entity @p eyes run tp @s ^ ^ ^1 facing entity @p
+execute if score SkillCoolDown flogger matches 0 run function boss:flogger/skill2_tellraw
 effect give @s glowing 2 2 false
 effect give @s resistance 2 3 false
 
@@ -18,3 +19,4 @@ execute if score SkillCoolDown flogger matches -33 run kill @e[tag = Particle5]
 execute if score SkillCoolDown flogger matches ..-33 if score SkillChooser flogger matches 5.. run scoreboard players set SkillChooser flogger 0
 execute if score SkillCoolDown flogger matches ..-33 if score SkillChooser flogger matches 5.. run execute store result score SkillCoolDown flogger run random value 290..310
 execute if score SkillCoolDown flogger matches -33 run execute store result score SkillCoolDown flogger run random value 40..50
+

@@ -1,0 +1,13 @@
+# skill1 created via BDEngine
+
+data merge entity @e[type=block_display,tag=head1723005711718_2_0,limit=1] {transformation:[0.6570f,-0.0483f,-0.9120f,0.1161f,-0.2059f,1.0867f,-0.2059f,0.7123f,0.8897f,0.2871f,0.6258f,-0.1533f,0.0000f,0.0000f,0.0000f,1.0000f],interpolation_duration:2,start_interpolation:0}
+data merge entity @e[type=item_display,tag=head1723005711718_2_0,limit=1] {transformation:[0.6570f,-0.0483f,-0.9120f,0.1161f,-0.2059f,1.0867f,-0.2059f,0.7123f,0.8897f,0.2871f,0.6258f,-0.1533f,0.0000f,0.0000f,0.0000f,1.0000f],interpolation_duration:2,start_interpolation:0}
+data merge entity @e[type=text_display,tag=head1723005711718_2_0,limit=1] {transformation:[0.6570f,-0.0483f,-0.9120f,0.1161f,-0.2059f,1.0867f,-0.2059f,0.7123f,0.8897f,0.2871f,0.6258f,-0.1533f,0.0000f,0.0000f,0.0000f,1.0000f],interpolation_duration:2,start_interpolation:0}
+data merge entity @e[type=block_display,tag=head1723005711718_2_1,limit=1] {transformation:[0.1533f,-0.0242f,-0.2128f,-0.0830f,-0.0480f,0.5433f,-0.0480f,0.4311f,0.2076f,0.1436f,0.1460f,1.0301f,0.0000f,0.0000f,0.0000f,1.0000f],interpolation_duration:2,start_interpolation:0}
+data merge entity @e[type=item_display,tag=head1723005711718_2_1,limit=1] {transformation:[0.1533f,-0.0242f,-0.2128f,-0.0830f,-0.0480f,0.5433f,-0.0480f,0.4311f,0.2076f,0.1436f,0.1460f,1.0301f,0.0000f,0.0000f,0.0000f,1.0000f],interpolation_duration:2,start_interpolation:0}
+data merge entity @e[type=text_display,tag=head1723005711718_2_1,limit=1] {transformation:[0.1533f,-0.0242f,-0.2128f,-0.0830f,-0.0480f,0.5433f,-0.0480f,0.4311f,0.2076f,0.1436f,0.1460f,1.0301f,0.0000f,0.0000f,0.0000f,1.0000f],interpolation_duration:2,start_interpolation:0}
+data merge entity @e[type=block_display,tag=head1723005711718_2_2,limit=1] {transformation:[0.3942f,-0.0129f,-0.5472f,-0.0084f,-0.1235f,0.2898f,-0.1235f,0.9936f,0.5338f,0.0766f,0.3755f,0.5863f,0.0000f,0.0000f,0.0000f,1.0000f],interpolation_duration:2,start_interpolation:0}
+data merge entity @e[type=item_display,tag=head1723005711718_2_2,limit=1] {transformation:[0.3942f,-0.0129f,-0.5472f,-0.0084f,-0.1235f,0.2898f,-0.1235f,0.9936f,0.5338f,0.0766f,0.3755f,0.5863f,0.0000f,0.0000f,0.0000f,1.0000f],interpolation_duration:2,start_interpolation:0}
+data merge entity @e[type=text_display,tag=head1723005711718_2_2,limit=1] {transformation:[0.3942f,-0.0129f,-0.5472f,-0.0084f,-0.1235f,0.2898f,-0.1235f,0.9936f,0.5338f,0.0766f,0.3755f,0.5863f,0.0000f,0.0000f,0.0000f,1.0000f],interpolation_duration:2,start_interpolation:0}
+
+schedule function skill1:animate/animation_keyframe13_2 0.1s
