@@ -1,5 +1,5 @@
 
-execute at @s run tp @s @e[limit=1,sort=nearest,tag=ToDH.dodge.M]
+execute at @s run tp @s ~ ~.125 ~
 execute as @s at @s run kill @e[limit=1,sort=nearest,tag=ToDH.dodge.M]
 
 execute as @s run scoreboard players reset @s dodgeCD
