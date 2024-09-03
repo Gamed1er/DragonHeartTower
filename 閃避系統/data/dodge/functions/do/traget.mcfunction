@@ -1,4 +1,5 @@
-$summon salmon ~ ~.3 ~ {Invulnerable:1b,NoGravity:0b,Silent:1b,Tags:["ToDH.dodge.M"],active_effects:[{id:"minecraft:invisibility",amplifier:1,show_particles:false,duration:-1}],DeathLootTable:"",Motion:[$(X),$(Y),$(Z)]}
+
+$execute at @s run summon item ~ ~.25 ~ {Invulnerable:1b,NoGravity:0b,Silent:1b,Tags:["ToDH.dodge.M"],Item:{id:"minecraft:stone_button",Count:1b},PickupDelay:-1,Motion:[$(X),$(Y),$(Z)]}
 
 playsound minecraft:block.azalea.break ambient @a[distance=..12] ~ ~ ~ 5 0.1
 playsound minecraft:ui.stonecutter.take_result ambient @a[distance=..12] ~ ~ ~ 0.5 0.75
