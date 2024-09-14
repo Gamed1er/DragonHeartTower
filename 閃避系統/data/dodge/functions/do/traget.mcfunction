@@ -3,6 +3,7 @@ $execute at @s run summon item ~ ~.25 ~ {Invulnerable:1b,NoGravity:0b,Silent:1b,
 
 playsound minecraft:block.azalea.break ambient @a[distance=..12] ~ ~ ~ 5 0.1
 playsound minecraft:ui.stonecutter.take_result ambient @a[distance=..12] ~ ~ ~ 0.5 0.75
+execute as @e[tag=ToDH.dodge.M,limit=1,sort=nearest] as @s run data modify
 ride @s mount @e[tag=ToDH.dodge.M,limit=1,sort=nearest]
 execute at @s positioned ~ ~.5 ~ run function dodge:do/particle with storage todh:dodge temp.ParticlePos
 function dodge:do/subparticle
