@@ -1,6 +1,8 @@
 
 
-execute at @s at @e[limit=1,sort=nearest,tag=ToDH.dodge.M] rotated ^ ^ ^-0.5 align xz run tp @s ~ ~ ~
+
+execute at @s at @e[limit=1,sort=nearest,tag=ToDH.dodge.M] positioned ^ ^ ^-1 run tp @s ~ ~ ~
+execute if entity @s[nbt={inGround:1b}] at @s at @e[limit=1,sort=nearest,tag=ToDH.dodge.M] positioned ^ ^ ^-1.5 run tp @s ~ ~ ~
 execute as @s at @s as @e[limit=1,sort=nearest,tag=ToDH.dodge.M] run function dodge:do/kill
 execute as @s run scoreboard players reset @s dodgeCD
 execute as @s run tag @s remove dodge

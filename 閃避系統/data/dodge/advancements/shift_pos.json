@@ -38,6 +38,6 @@
 		}
 	},
 	"rewards": {
-		"function": "dodge:do/pos_sale"
+		"function": "dodge:do/pos_ale"
 	}
 }

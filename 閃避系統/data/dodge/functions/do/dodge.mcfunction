@@ -1,5 +1,6 @@
 
-$execute positioned $(X) $(Y) $(Z) facing entity @s feet positioned 0.0 0.0 0.0 run tp @e[limit=1,tag=ToDH.dodge.vector.marker] ^ ^ ^$(Speed) ~ ~
+$execute positioned 0.0 0.0 0.0 rotated as @s run tp @e[limit=1,tag=ToDH.dodge.vector.marker] ^ ^ ^$(Speed) ~ ~
+
 
 
 execute store result score @s Pos.X run data get entity @e[limit=1,tag=ToDH.dodge.vector.marker] Pos[0] 1000

@@ -1,4 +1,5 @@
 {
+	"parent": "dodge:shift_pos",
 	"criteria": {
 		"requirement": {
 			"trigger": "minecraft:tick",
