@@ -14,6 +14,7 @@ execute as @e[tag=enemy,distance=..0.9] positioned ~ ~ ~ if entity @s[] run func
 
 execute as @s run scoreboard players add @s KCS.Skill.Range 1
 
-execute anchored eyes unless block ^ ^ ^.25 air run return fail
+
+execute unless score @s KCS.Skill.Range matches 10.. positioned ^ ^ ^.25 unless block ~ ~ ~ air unless block ~ ~1 ~ air run return fail
+execute unless score @s KCS.Skill.Range matches 10.. positioned ^ ^ ^.25 unless block ~ ~ ~ air if block ~ ~1 ~ air if block ~ ~2 ~ air positioned ~ ~1 ~ run return run function kcs:main/skill/id/sword/122/line
 execute unless score @s KCS.Skill.Range matches 10.. positioned ^ ^ ^.25 if block ~ ~ ~ air if block ~ ~1 ~ air run function kcs:main/skill/id/sword/122/line
-execute unless score @s KCS.Skill.Range matches 10.. positioned ^ ^ ^.25 unless block ~ ~ ~ air if block ~ ~1 ~ air if block ~ ~2 ~ air positioned over motion_blocking run function kcs:main/skill/id/sword/122/line

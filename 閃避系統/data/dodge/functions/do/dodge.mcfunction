@@ -1,5 +1,5 @@
 
-$execute positioned 0.0 0.0 0.0 rotated as @s run tp @e[limit=1,tag=ToDH.dodge.vector.marker] ^ ^ ^$(Speed) ~ ~
+$execute positioned 0.0 0.0 0.0 rotated as @s rotated ~ 0 run tp @e[limit=1,tag=ToDH.dodge.vector.marker] ^ ^ ^$(Speed) ~ ~
 
 
 
