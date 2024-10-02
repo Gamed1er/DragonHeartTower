@@ -1,7 +1,9 @@
 {
     "values": [
+      "minecraft:wither",
       "stiff:normal_damage",
       "arrow",
-      "thrown"
+      "thrown",
+      "on_fire"
     ]
   }

@@ -11,5 +11,7 @@ execute as @e[tag=enemy,nbt=!{HurtTime:10s},dx=0,limit=3] positioned ~-.99 ~-.99
 scoreboard players operation @s KCS.Skill.Hurt.Count += KCS.Score.reg KCS.Skill.Hurt.Count
 scoreboard players reset KCS.Score.reg KCS.Skill.Hurt.Count
 
+
+execute unless block ^ ^ ^1 air run return fail
 execute if score @s KCS.Skill.Hurt.Count matches 3.. run return fail
 execute unless score @s KCS.Skill.Range matches 31.. positioned ^ ^ ^.25 run function kcs:main/skill/id/sword/111/line
