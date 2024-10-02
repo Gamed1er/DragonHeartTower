@@ -1,0 +1,6 @@
+##
+ # slash.mcfunction
+ # 
+ #
+ # Created by .
+##

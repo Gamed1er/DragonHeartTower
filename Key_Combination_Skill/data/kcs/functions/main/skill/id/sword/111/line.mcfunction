@@ -1,6 +1,6 @@
 
 execute as @s run scoreboard players add @s KCS.Skill.Range 1
-particle enchanted_hit ~ ~ ~ 0.01 0.01 0.01 0.05 4
+particle crit ~ ~ ~ 0.01 0.01 0.01 0.05 4
 playsound entity.player.attack.sweep record @a[distance=..16] ~ ~ ~ 1 .5 0.7
 playsound entity.arrow.shoot record @a[distance=..16] ~ ~ ~ 1 1.2 0.7
 playsound entity.arrow.hit record @a[distance=..16] ~ ~ ~ 1 1.5 0.7
@@ -12,4 +12,4 @@ scoreboard players operation @s KCS.Skill.Hurt.Count += KCS.Score.reg KCS.Skill.
 scoreboard players reset KCS.Score.reg KCS.Skill.Hurt.Count
 
 execute if score @s KCS.Skill.Hurt.Count matches 3.. run return fail
-execute unless score @s KCS.Skill.Range matches 27.. positioned ^ ^ ^.25 run function kcs:main/skill/id/sword/111/line
+execute unless score @s KCS.Skill.Range matches 31.. positioned ^ ^ ^.25 run function kcs:main/skill/id/sword/111/line

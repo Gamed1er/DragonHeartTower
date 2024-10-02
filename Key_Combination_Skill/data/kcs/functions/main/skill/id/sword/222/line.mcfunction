@@ -8,4 +8,4 @@ execute store result score KCS.Score.reg KCS.Skill.Damage run data get storage k
 execute store result storage kcs:function Battle.DMG float 0.01 run scoreboard players add KCS.Score.reg KCS.Skill.Damage 200
 execute as @e[tag=enemy,nbt=!{HurtTime:10s},dx=0,limit=3] positioned ~-.99 ~-.99 ~-.99 if entity @s[dx=0] run function kcs:main/skill/id/sword/222/damage with storage kcs:function Battle
 
-execute unless score @s KCS.Skill.Range matches 7.. positioned ^ ^ ^.5 run function kcs:main/skill/id/sword/222/line
+execute unless score @s KCS.Skill.Range matches 10.. positioned ^ ^ ^.5 run function kcs:main/skill/id/sword/222/line

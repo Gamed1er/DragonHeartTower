@@ -1,6 +1,7 @@
 
 
 scoreboard objectives add KCS.test dummy
+scoreboard objectives add KCS.reg dummy
 
 scoreboard objectives add KCS.Skill.ID dummy
 scoreboard objectives add KCS.Skill.ID.Count dummy
