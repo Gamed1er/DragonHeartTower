@@ -1,2 +1,0 @@
-
-function kcs:system/scoreboard

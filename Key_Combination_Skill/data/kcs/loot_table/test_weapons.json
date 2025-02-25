@@ -1,0 +1,25 @@
+{
+	"type": "minecraft:command",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:netherite_sword",
+					"functions": [
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": {
+								"KCS": {
+									"trigger": true
+								}
+							}
+						}
+					],
+					"conditions": []
+				}
+			]
+		}
+	]
+}
