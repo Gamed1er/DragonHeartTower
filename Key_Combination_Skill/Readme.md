@@ -1,4 +1,4 @@
-# 組合鍵技能<sub>Key_Combination_Skill</sub>
+# 組合鍵技能  <sub>Key_Combination_Skill</sub>
 > ver`0.5`
 update `250225`
 
