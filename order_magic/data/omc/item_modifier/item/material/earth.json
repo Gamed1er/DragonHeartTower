@@ -1,0 +1,30 @@
+[
+	{
+		"function": "minecraft:set_name",
+		"entity": "this",
+		"name": {
+			"translate": "item.todh.omc.element.earth",
+			"with": [],
+			"color": "#663300",
+			"bold": true,
+			"italic": false,
+			"underlined": false
+		}
+	},
+	{
+		"function": "minecraft:set_custom_data",
+		"tag": {
+			"OMC": {
+				"item_type": "material",
+				"material_type": "Earth"
+			}
+		}
+	},
+	{
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:item_model": "181005"
+		},
+		"conditions": []
+	}
+]

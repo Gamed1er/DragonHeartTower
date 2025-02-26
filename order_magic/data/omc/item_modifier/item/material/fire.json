@@ -1,0 +1,30 @@
+[
+	{
+		"function": "minecraft:set_name",
+		"entity": "this",
+		"name": {
+			"translate": "item.todh.omc.element.fire",
+			"with": [],
+			"color": "gold",
+			"bold": true,
+			"italic": false,
+			"underlined": false
+		}
+	},
+	{
+		"function": "minecraft:set_custom_data",
+		"tag": {
+			"OMC": {
+				"item_type": "material",
+				"material_type": "Fire"
+			}
+		}
+	},
+	{
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:item_model": "181002"
+		},
+		"conditions": []
+	}
+]

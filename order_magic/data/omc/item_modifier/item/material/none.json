@@ -1,0 +1,30 @@
+[
+	{
+		"function": "minecraft:set_name",
+		"entity": "this",
+		"name": {
+			"translate": "item.todh.omc.element.none",
+			"with": [],
+			"color": "dark_gray",
+			"bold": true,
+			"italic": false,
+			"underlined": false
+		}
+	},
+	{
+		"function": "minecraft:set_custom_data",
+		"tag": {
+			"OMC": {
+				"item_type": "material",
+				"material_type": "None"
+			}
+		}
+	},
+	{
+		"function": "minecraft:set_components",
+		"components": {
+			"minecraft:item_model": "181001"
+		},
+		"conditions": []
+	}
+]

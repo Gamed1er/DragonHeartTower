@@ -1,0 +1,218 @@
+[
+	{
+		"condition": "minecraft:any_of",
+		"terms": [
+			{
+				"condition": "minecraft:any_of",
+				"terms": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"equipment": {
+								"mainhand": {
+									"nbt": "{Tags:[\"ToDH.Armor.Battle.Magic\"]}"
+								},
+								"head": {
+									"nbt": "{Tags:[\"ToDH.Armor.Battle.Magic\"]}"
+								}
+							}
+						}
+					},
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"equipment": {
+								"mainhand": {
+									"nbt": "{Tags:[\"ToDH.Armor.Battle.Magic\"]}"
+								},
+								"chest": {
+									"nbt": "{Tags:[\"ToDH.Armor.Battle.Magic\"]}"
+								}
+							}
+						}
+					},
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"equipment": {
+								"mainhand": {
+									"nbt": "{Tags:[\"ToDH.Armor.Battle.Magic\"]}"
+								},
+								"legs": {
+									"nbt": "{Tags:[\"ToDH.Armor.Battle.Magic\"]}"
+								}
+							}
+						}
+					},
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"equipment": {
+								"mainhand": {
+									"nbt": "{Tags:[\"ToDH.Armor.Battle.Magic\"]}"
+								},
+								"feet": {
+									"nbt": "{Tags:[\"ToDH.Armor.Battle.Magic\"]}"
+								}
+							}
+						}
+					}
+				]
+			},
+			{
+				"condition": "minecraft:any_of",
+				"terms": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"equipment": {
+								"offhand": {
+									"nbt": "{Tags:[\"ToDH.Armor.Battle.Magic\"]}"
+								},
+								"head": {
+									"nbt": "{Tags:[\"ToDH.Armor.Battle.Magic\"]}"
+								}
+							}
+						}
+					},
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"equipment": {
+								"offhand": {
+									"nbt": "{Tags:[\"ToDH.Armor.Battle.Magic\"]}"
+								},
+								"chest": {
+									"nbt": "{Tags:[\"ToDH.Armor.Battle.Magic\"]}"
+								}
+							}
+						}
+					},
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"equipment": {
+								"offhand": {
+									"nbt": "{Tags:[\"ToDH.Armor.Battle.Magic\"]}"
+								},
+								"legs": {
+									"nbt": "{Tags:[\"ToDH.Armor.Battle.Magic\"]}"
+								}
+							}
+						}
+					},
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"equipment": {
+								"offhand": {
+									"nbt": "{Tags:[\"ToDH.Armor.Battle.Magic\"]}"
+								},
+								"feet": {
+									"nbt": "{Tags:[\"ToDH.Armor.Battle.Magic\"]}"
+								}
+							}
+						}
+					}
+				]
+			},
+			{
+				"condition": "minecraft:any_of",
+				"terms": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"equipment": {
+								"head": {
+									"nbt": "{Tags:[\"ToDH.Armor.Battle.Magic\"]}"
+								},
+								"chest": {
+									"nbt": "{Tags:[\"ToDH.Armor.Battle.Magic\"]}"
+								}
+							}
+						}
+					},
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"equipment": {
+								"head": {
+									"nbt": "{Tags:[\"ToDH.Armor.Battle.Magic\"]}"
+								},
+								"legs": {
+									"nbt": "{Tags:[\"ToDH.Armor.Battle.Magic\"]}"
+								}
+							}
+						}
+					},
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"equipment": {
+								"head": {
+									"nbt": "{Tags:[\"ToDH.Armor.Battle.Magic\"]}"
+								},
+								"feet": {
+									"nbt": "{Tags:[\"ToDH.Armor.Battle.Magic\"]}"
+								}
+							}
+						}
+					},
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"equipment": {
+								"chest": {
+									"nbt": "{Tags:[\"ToDH.Armor.Battle.Magic\"]}"
+								},
+								"legs": {
+									"nbt": "{Tags:[\"ToDH.Armor.Battle.Magic\"]}"
+								}
+							}
+						}
+					},
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"equipment": {
+								"chest": {
+									"nbt": "{Tags:[\"ToDH.Armor.Battle.Magic\"]}"
+								},
+								"feet": {
+									"nbt": "{Tags:[\"ToDH.Armor.Battle.Magic\"]}"
+								}
+							}
+						}
+					},
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"equipment": {
+								"feet": {
+									"nbt": "{Tags:[\"ToDH.Armor.Battle.Magic\"]}"
+								},
+								"legs": {
+									"nbt": "{Tags:[\"ToDH.Armor.Battle.Magic\"]}"
+								}
+							}
+						}
+					}
+				]
+			}
+		]
+	}
+]
