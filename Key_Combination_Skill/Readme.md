@@ -18,20 +18,6 @@ components.custom_data{KCS:{trigger:true}}
 //type為武器類型，class為技能種類
 ```
 * 類別
-<table>
-	<tr>
-		<td>名稱</td>
-  		<td>類型</td>
-	</tr>
- 	<tr>
-  		<td>{type:""}</td>
-                <td>"sword"、"bow"、"axe"、"pickaxe"、"shovel"</td>
-        </tr>
-        <tr>
-                <td>{class:""}</td>
-                <td>"normal"、"iron_blood(sword)"</td>
-        </tr>
-</table>
 
 |名稱		|類型		|
 |---------------|---------------|
@@ -58,6 +44,10 @@ components.custom_data{KCS:{trigger:true}}
 
 ### 配方表
 * 劍
+
+|配方	|名稱	|描述	|數值	|
+|---|---|---|---|
+|LLL	|穿刺	|對前方直線6-7格內，至多三名敵人造成弱攻擊，並賦予破甲II/5秒	|(ATK*0.8+4.0)<br/>僵直24~28	|
 <table>
 	<tr>
 		<td>配方</td>
