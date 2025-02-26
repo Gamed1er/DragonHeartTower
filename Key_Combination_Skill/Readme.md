@@ -12,13 +12,12 @@ update 250225
 ```javascrpit
 components.custom_data{KCS:{trigger:true}}
 ```
-	放置副手進入架式
-	KCS資料包含
-
-	{trigger:true,type:"sword",class:"normal"}
-	type為武器類型，class為技能種類
-
-
+* KCS資料包含
+```
+{trigger:true,type:"sword",class:"normal"}
+type為武器類型，class為技能種類
+```
+放置副手進入架式
 ### 架式
 	
 	{
