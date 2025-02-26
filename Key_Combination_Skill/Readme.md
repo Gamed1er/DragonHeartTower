@@ -8,17 +8,18 @@ update 250225
 [劍、弓、斧(ing)、弩(ing)]
 
 * ｛新版｝
-物品帶有nbt
+物品帶有下列nbt
 ```javascrpit
 components.custom_data{KCS:{trigger:true}}
 ```
-放置副手進入架式
-KCS資料包含
+	放置副手進入架式
+	KCS資料包含
 
 	{trigger:true,type:"sword",class:"normal"}
-type為武器類型，class為技能種類
+	type為武器類型，class為技能種類
 
-架式
+
+### 架式
 	
 	{
 	進入狀態後開始偵測左右鍵，並記錄
