@@ -1,6 +1,6 @@
 
 
-execute at @s anchored eyes positioned ^ ^-.75 ^1 run tp @e[tag=KCS.Skill.interation.key,limit=1,sort=nearest] ~ ~ ~
+execute at @s anchored eyes positioned ^ ^-.75 ^3 run tp @e[tag=KCS.Skill.interation.key,limit=1,sort=nearest] ~ ~ ~
 
 effect give @s slowness 1 2 true
 effect give @s mining_fatigue 1 255 true

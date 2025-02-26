@@ -1,4 +1,6 @@
 
+data modify storage kcs:function Skill.type set from entity @s Inventory[{Slot:-106b}].components."minecraft:custom_data".KCS.type
+data modify storage kcs:function Skill.class set from entity @s Inventory[{Slot:-106b}].components."minecraft:custom_data".KCS.class
 execute store result storage kcs:function Skill.ID int 1 run scoreboard players get @s KCS.Skill.ID
 execute if score @s KCS.Skill.ID.Count matches 1.. run function kcs:main/skill/list/manager with storage kcs:function Skill
 
