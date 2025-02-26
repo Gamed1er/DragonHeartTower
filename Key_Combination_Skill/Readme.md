@@ -4,11 +4,11 @@ update 250225
 
 
 * ｛舊版｝
-下列武器帶有標籤(tag){Tags:["KCS.trigger"]}時
-[劍、弓、斧(ing)、弩(ing)]
+  -下列武器帶有標籤(tag){Tags:["KCS.trigger"]}時
+  -[劍、弓、斧、~~弩(ing)~~]
 
 * ｛新版｝
-物品帶有下列nbt
+  -物品帶有下列nbt
 ```javascrpit
 components.custom_data{KCS:{trigger:true}}
 ```
