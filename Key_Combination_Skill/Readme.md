@@ -1,6 +1,6 @@
 # 組合鍵技能  <sub>Key_Combination_Skill</sub>
-> ver`0.5`
-update `250225`
+> ver`0.5.1`
+update `250226`
 
 
 * ｛舊版｝
