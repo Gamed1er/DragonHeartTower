@@ -29,7 +29,7 @@ components.custom_data{KCS:{trigger:true}}
         </tr>
         <tr>
                 <td>{class:""}</td>
-                <td>"normal"、"iron_blood`(sword)`"</td>
+                <td>"normal"、"iron_blood  `(sword)`"</td>
         </tr>
 </table>
 
