@@ -23,14 +23,16 @@ Update`240728`
 |施法等級	|`OMC.Skill.ID.Limit`	|施法等級預設為1，意指最多只能釋放1位元法術，可修改來釋放更高等的法術，但每次reload會重置	|
         
 * 普通攻擊
+```
 	- 未處於施法狀態
 	- 手持魔杖點擊`右鍵`釋放小魔球，消耗`3.0`魔量
-    
+``` 
 * 魔杖的定義
+```
         物品Tags帶有["OMC.trigger"]皆為魔杖
         example
         /give @s stick{Tags:["OMC.trigger"]}
-
+```
 資源包（預留欄位）
 
     CustomModelData：1
