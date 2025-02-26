@@ -89,6 +89,7 @@ components.custom_data{KCS:{trigger:true}}
 			僵直20~24</td>
 	</tr>		
 </table>
+
 * 弓
 <table>
 	<tr>
