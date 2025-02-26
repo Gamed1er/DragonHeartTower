@@ -154,7 +154,7 @@ components.custom_data{KCS:{trigger:true}}
 
 |test	|name	|cool	|
 |-------|-------|-------|
-|first	|second	|third	|
+|first	|~~~second~~~	|third	|
 
 0.3.2
 
