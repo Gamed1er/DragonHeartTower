@@ -33,6 +33,11 @@ components.custom_data{KCS:{trigger:true}}
         </tr>
 </table>
 
+|名稱		|類型		|
+|---------------|---------------|
+|{type:""}	|"sword"、"bow"、"axe"、"pickaxe"、"shovel"		|
+|{class:""}	|"normal"、"iron_blood"`sword`		|
+
 放置副手進入架式
 ## 架式
 * 舊版
