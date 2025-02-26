@@ -34,7 +34,7 @@ Update`240728`
 * **新版**
 	- 物品帶有下列`components`
 ```javascrpit
-
+{components:{"minecraft:custom_data":{OMC:{trigger:true}}}}
 ```
 
 
