@@ -29,9 +29,10 @@ Update`240728`
 ``` 
 * 魔杖的定義
 ```
-        物品Tags帶有["OMC.trigger"]皆為魔杖
-        example
-        /give @s stick{Tags:["OMC.trigger"]}
+	* **舊版**
+        	- 物品Tags帶有["OMC.trigger"]皆為魔杖
+        	- example
+        	- `/give @s stick{Tags:["OMC.trigger"]}`
 ```
 資源包（預留欄位）
 
