@@ -64,7 +64,8 @@ components.custom_data{KCS:{trigger:true}}
 		<td>LLL</td>
 		<td>穿刺</td>
 		<td>對前方直線6-7格內，至多三名敵人造成弱攻擊，並賦予破甲II/5秒</td>
-		<td>(ATK*0.8+4.0)/僵直24~28</td>
+		<td>(ATK*0.8+4.0)\
+			僵直24~28</td>
 	</tr>
  	<tr>
 		<td>RRR</td>
