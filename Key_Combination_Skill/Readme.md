@@ -67,17 +67,6 @@ components.custom_data{KCS:{trigger:true}}
 				_配方自己摸_(懶<br/>
 			* 調整：劍
 				上挑：固定垂直|
-    <td>0.4</td>
-    		<td>(missing)</td>
-      		<td>
-			
-		</td>
-	</tr>
-</table>
-
-|test	|name	|cool	|
-|-------|-------|-------|
-|first	|~~second~~	|third	|
 
 0.3.2
 
