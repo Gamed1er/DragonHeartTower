@@ -11,15 +11,15 @@ Update`240728`
 > [!NOTE]
 > 投入超過上限則重置ID
     
-    數值
-        魔量(OMC.Player.Mana.Points)
-        回魔(OMC.Player.Mana.Points.Regen)
-        魔力強度(OMC.Player.Mana.Strength)
-        施法等級(OMC.Skill.ID.Limit)
-        魔力強度基礎預設為40實際4.0，可修改，但每次Reload後會重設
-        魔量預設為1000實際為100.0方便計算小數
-        回魔預設為20義為每秒恢復20（2.0）魔力
-        施法等級預設為1，意指最多只能釋放1位元法術，可修改來釋放更高等的法術，但每次reload會重置
+* 自定義數值
+	- 魔量`OMC.Player.Mana.Points`
+		- 魔量預設為1000實際為100.0方便計算小數
+	- 回魔`OMC.Player.Mana.Points.Regen`
+		- 回魔預設為20義為每秒恢復20（2.0）魔力
+	- 魔力強度`OMC.Player.Mana.Strength`
+		- 魔力強度基礎預設為40實際4.0，可修改，但每次Reload後會重設
+	- 施法等級`OMC.Skill.ID.Limit`
+		- 施法等級預設為1，意指最多只能釋放1位元法術，可修改來釋放更高等的法術，但每次reload會重置
         
     普通攻擊
         未處於施法狀態時
