@@ -1,4 +1,4 @@
-###組合鍵技能
+### 組合鍵技能
 ver.0.4
 update 250225
 
@@ -9,7 +9,7 @@ update 250225
 ｛新版｝
 物品帶有nbt
 ```javascrpit
-	components.custom_data{KCS:{trigger:true}}
+components.custom_data{KCS:{trigger:true}}
 ```
 放置副手進入架式
 KCS資料包含
