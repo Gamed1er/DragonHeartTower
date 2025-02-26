@@ -1,11 +1,21 @@
 組合鍵技能
 ver.0.4
-update 240802
+update 250225
 
 
+｛舊版｝
 下列武器帶有標籤(tag){Tags:["KCS.trigger"]}時
 [劍、弓、斧(ing)、弩(ing)]
+｛新版｝
+物品帶有nbt
+	
+	components.custom_data{KCS:{trigger:true}}
+
 放置副手進入架式
+KCS資料包含
+
+	{trigger:true,type:"sword",class:"normal"}
+type為武器類型，class為技能種類
 
 架式
 	
