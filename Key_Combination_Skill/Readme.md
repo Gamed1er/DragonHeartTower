@@ -64,25 +64,25 @@ components.custom_data{KCS:{trigger:true}}
 		<td>LLL</td>
 		<td>穿刺</td>
 		<td>對前方直線6-7格內，至多三名敵人造成弱攻擊，並賦予破甲II/5秒</td>
-		<td>(ATK*0.8+4.0)\僵直24~28</td>
+		<td>(ATK*0.8+4.0)/僵直24~28</td>
 	</tr>
  	<tr>
 		<td>RRR</td>
 		<td>水平斬</td>
 		<td>對前方半徑為3、160的扇形內的敵人造成弱攻擊</td>
-		<td>(ATK*0.4+2.0)\僵直20~24</td>
+		<td>(ATK*0.4+2.0)/僵直20~24</td>
 	</tr>
 	<tr>
 		<td>LRR</td>
 		<td>突進</td>
 		<td>向前突進2~3格距離，對路徑敵人造成多段弱攻擊，並賦予緩速II/3秒</td>
-		<td>(ATK?)\僵直32~36</td>
+		<td>(ATK?)/僵直32~36</td>
 	</tr>
 	<tr>
 		<td>RLL</td>
 		<td>上挑</td>
 		<td>對前方直線5格內，至多3名敵人造成弱攻擊，並擊飛該敵人</td>
-		<td>(ATK?)\僵直20~24</td>
+		<td>(ATK?)/僵直20~24</td>
 	</tr>		
 </table>
 * 弓
@@ -97,25 +97,25 @@ components.custom_data{KCS:{trigger:true}}
 		<td>LLL</td>
 		<td>穿甲箭</td>
 		<td>下一發箭矢可穿透3名敵人，並賦予首位命中敵人破甲III/8秒</td>
-		<td>(ATK*0.8+4.0)\僵直12~16</td>
+		<td>(ATK?)/僵直12~16</td>
 	</tr>
  	<tr>
 		<td>RRR</td>
 		<td>散射</td>
 		<td>快速射出3發箭矢，並消耗等量箭矢</td>
-		<td>(ATK*0.4+2.0)\僵直20~24</td>
+		<td>(ATK?)/僵直20~24</td>
 	</tr>
 	<tr>
 		<td>LLR</td>
 		<td>狙擊</td>
 		<td>下一發箭矢無視重力且逐漸加速，越遠造成傷害越高，造成強攻擊</td>
-		<td>(ATK?)\僵直36~40</td>
+		<td>(ATK?)/僵直36~40</td>
 	</tr>
 	<tr>
 		<td>RRL</td>
 		<td>箭雨</td>
 		<td>下一發箭矢會額外消耗5個箭矢，並對落地點持續2秒的3*3箭雨，如命中敵人則箭雨跟隨敵人</td>
-		<td>(ATK?)\僵直28~32</td>
+		<td>(ATK?)/僵直28~32</td>
 	</tr>		
 </table>
 0.5
