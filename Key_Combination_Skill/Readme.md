@@ -152,6 +152,10 @@ components.custom_data{KCS:{trigger:true}}
 	</tr>
 </table>
 
+|test	|name	|cool	|
+|-------|-------|-------|
+|first	|second	|third	|
+
 0.3.2
 
 	調整：弓、劍
