@@ -42,6 +42,7 @@ Update`240728`
 {OMC:{trigger:true,skill_id_limit:(num),wand_type:""}}
 ```
 * 類別
+
 |名稱	|類型	|
 |---|---|
 |`skill_id_limit`	|(num)	|
