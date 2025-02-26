@@ -29,7 +29,7 @@ components.custom_data{KCS:{trigger:true}}
         </tr>
         <tr>
                 <td>{class:""}</td>
-                <td>"normal"、"iron_blood  `(sword)`"</td>
+                <td>"normal"、"iron_blood(sword)"</td>
         </tr>
 </table>
 
@@ -145,7 +145,7 @@ components.custom_data{KCS:{trigger:true}}
     		<td>(missing)</td>
       		<td>
 			* 新增：斧、鎬、鏟 
-				`~~配方自己摸(懶~~`<br/>
+				_配方自己摸_(懶<br/>
 			* 調整：劍
 				上挑：固定垂直
 		</td>
