@@ -132,11 +132,11 @@ Update`240728`
 ### 0.5.1
 
 > * 新增
-	- 對魔杖的魔法等級值獲取
-		- 魔杖NBT帶有{OMC:{ManaIDLimit:(賦值)}}可間接提升玩家可釋放魔法等級
+	> - 對魔杖的魔法等級值獲取
+		> - 魔杖NBT帶有{OMC:{ManaIDLimit:(賦值)}}可間接提升玩家可釋放魔法等級
 > * 修改
-	- 對魔杖的魔力強度獲取
-		- `NBT：{OMCManaStrength:(賦值)} >> {OMC:{ManaStrength:(賦值}}`
+	> - 對魔杖的魔力強度獲取
+		> - `NBT：{OMCManaStrength:(賦值)} >> {OMC:{ManaStrength:(賦值}}`
 
 ### 0.5
 
