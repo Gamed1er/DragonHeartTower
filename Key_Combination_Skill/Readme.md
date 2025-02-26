@@ -15,8 +15,23 @@ components.custom_data{KCS:{trigger:true}}
 * KCS資料包含
 ```javascript
 {trigger:true,type:"sword",class:"normal"}
+//type為武器類型，class為技能種類
 ```
-	type為武器類型，class為技能種類
+* 類別
+<table>
+	<tr>
+		<td>名稱</td>
+  		<td>類型</td>
+	</tr>
+ 	<tr>
+  		<td>{type:""}</td>
+                <td>"swrod"、"bow"、"axe"、"pickaxe"、"shovel"</td>
+        </tr>
+        <tr>
+                <td>{class:""}</td>
+                <td>"normal"、"iron_blood(swrod)"</td>
+        </tr>
+</table>
 
 放置副手進入架式
 ### 架式
