@@ -87,7 +87,7 @@ Update`240728`
 |通用支援煉金棒	|`minecraft:carrot_on_a_stick`	|`null`	|
 |通用保護銳利手術刀	|`minecraft:carrot_on_a_stick`	|`null`	|
 |賢者之石<sub>_(鍊金)_</sub>	|`null`	|`null`	|
-|禁忌魔法錄<sub>_<魔導(_</sub>	|`null`	|`null`	|
+|禁忌魔法錄<sub>_(魔導)_</sub>	|`null`	|`null`	|
 |腎上腺素<sub>_(醫師)_</sub>	|`null`	|`null`	|
 
 ## 配方表
