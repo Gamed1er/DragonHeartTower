@@ -13,10 +13,11 @@ update 250225
 components.custom_data{KCS:{trigger:true}}
 ```
 * KCS資料包含
-```
+```javascript
 {trigger:true,type:"sword",class:"normal"}
-type為武器類型，class為技能種類
 ```
+	type為武器類型，class為技能種類
+
 放置副手進入架式
 ### 架式
 	
