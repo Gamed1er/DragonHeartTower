@@ -36,6 +36,13 @@ Update`240728`
 ```javascrpit
 {components:{"minecraft:custom_data":{OMC:{trigger:true}}}}
 ```
+#### OMC標籤
+* OMC資料包含
+```javascript
+{OMC:{trigger:true,skill_id_limit:(num),wand_type:""}}
+```
+
+|名稱	|||
 
 
 資源包（預留欄位）
