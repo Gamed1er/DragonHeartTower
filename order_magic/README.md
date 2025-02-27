@@ -18,10 +18,13 @@ Update`250226`
 |名稱	|命名	|描述		|
 |---|---|---|
 |魔量	|`OMC.Player.Mana.Points`	|魔量預設為1000實際為100.0方便計算小數	|
+|消耗減免	|`OMC.Player.Mana.Points.Cost.Reduction`	|等比例減少魔量消耗，至多不超過`70%`，最低不少於`1.0/次`	|
 |回魔	|`OMC.Player.Mana.Points.Regen`	|回魔預設為20義為每秒恢復20（2.0）魔力	|
+|回魔增幅	|`OMC.Player.Mana.Points.Regen.Boost`	|基於基礎額外增加恢復量	|
 |魔力強度	|`OMC.Player.Mana.Strength`	|魔力強度基礎預設為40實際4.0，可修改，但每次Reload後會重設	|
 |施法等級	|`OMC.Skill.ID.Limit`	|施法等級預設為1，意指最多只能釋放1位元法術，可修改來釋放更高等的法術，但每次reload會重置	|
-        
+
+	
 ### 普通攻擊
 
 1. 未處於施法狀態
@@ -39,14 +42,15 @@ Update`250226`
 #### OMC標籤
 * OMC資料
 ```javascript
-{OMC:{trigger:true,skill_id_limit:(num),wand_type:""}}
+{OMC:{trigger:true,skill_id_limit:(int),wand_type:"",mana_strength:(float)}}
 ```
 * 類別
 
 |名稱	|類型	|
 |---|---|
-|skill_id_limit	|`number`	|
+|skill_id_limit	|`int`	|
 |wand_type	|`null`	|
+|mana_strength	|`float`	|
 
 ## 資源包（預留欄位）
 ### 物品
