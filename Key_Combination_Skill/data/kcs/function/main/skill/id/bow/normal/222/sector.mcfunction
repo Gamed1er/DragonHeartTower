@@ -1,6 +1,6 @@
 
 
-execute as @e[tag=KCS.marker.vector] positioned 0.0 0.0 0.0 rotated ~ ~ run tp @s ^ ^ ^1.25 ~ ~
+execute as @e[tag=KCS.marker.vector] positioned 0.0 0.0 0.0 rotated ~ ~ run tp @s ^ ^ ^2.0 ~ ~
 execute positioned ^ ^ ^.25 summon arrow run function kcs:main/skill/id/bow/normal/222/arrow
 
 

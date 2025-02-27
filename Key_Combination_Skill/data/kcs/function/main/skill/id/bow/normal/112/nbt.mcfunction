@@ -1,8 +1,8 @@
 
 tag @s add ToDH.HardAttacker
-execute as @s store result entity @s Motion[0] double 0.00011 run data get entity @s Motion[0] 10000
-execute as @s store result entity @s Motion[1] double 0.00011 run data get entity @s Motion[1] 10000
-execute as @s store result entity @s Motion[2] double 0.00011 run data get entity @s Motion[2] 10000
+execute as @s store result entity @s Motion[0] double 0.000125 run data get entity @s Motion[0] 10000
+execute as @s store result entity @s Motion[1] double 0.000125 run data get entity @s Motion[1] 10000
+execute as @s store result entity @s Motion[2] double 0.000125 run data get entity @s Motion[2] 10000
 data modify entity @s damage set value 2.5f
 execute if entity @s[nbt={inGround:1b}] run tag @s remove KCS.arrow.sniper
 

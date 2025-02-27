@@ -6,7 +6,7 @@ function stiff:main/do/damage/toughness
 
 
 title @s times 0t 10t 1t
-title @s subtitle ["",{"text":"[","bold":true,"italic":true,"strikethrough":true,"color":"dark_purple"},{"text":"穿甲箭","bold":true,"italic":true,"underlined":true,"color":"aqua"},{"text":"]","bold":true,"italic":true,"strikethrough":true,"color":"dark_purple"}]
+title @s subtitle {"translate":"text.todh.kcs.bow.skill.normal.111.name","color":"aqua"}
 title @s title [""]
 
 scoreboard players reset @s KCS.Players.Bow.shoot
