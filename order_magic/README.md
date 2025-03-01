@@ -36,7 +36,7 @@ Update`250226`
 	- ~~example：`/give @s stick{Tags:["OMC.trigger"]}`~~
 * **新版**
 	- 物品帶有下列`components`
-```javascrpit
+```javascript
 {components:{"minecraft:custom_data":{OMC:{trigger:true}}}}
 ```
 #### OMC標籤
