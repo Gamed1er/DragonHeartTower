@@ -8,7 +8,7 @@
 						"condition": "minecraft:all_of",
 						"terms": [
 							{
-								"condition": "minecraft:any_of",
+								"condition": "minecraft:all_of",
 								"terms": [
 									{
 										"condition": "minecraft:entity_properties",
@@ -18,10 +18,13 @@
 										}
 									},
 									{
-										"condition": "minecraft:entity_properties",
-										"entity": "this",
-										"predicate": {
-											"nbt": "{Tags:[\"Stiff.ing\"]}"
+										"condition": "minecraft:inverted",
+										"term": {
+											"condition": "minecraft:entity_properties",
+											"entity": "this",
+											"predicate": {
+												"nbt": "{Tags:[\"Stiff.ing\"]}"
+											}
 										}
 									}
 								]
@@ -51,6 +54,6 @@
 		}
 	},
 	"rewards": {
-		"function": "stiff:main/do/damage/block_hard"
+		"function": "stiff:main/do/damage/dodge/hard"
 	}
 }

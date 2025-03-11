@@ -1,5 +1,5 @@
 {
-	"message_id": "hard_damage",
+	"message_id": "normal_damage",
 	"exhaustion": 0.2,
 	"scaling": "when_caused_by_living_non_player",
 	"effects": "hurt"
