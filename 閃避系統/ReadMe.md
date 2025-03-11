@@ -11,7 +11,7 @@
 
 > [!IMPORTANT]
 > 引用他人資料包
-* [Player Motion]([url](https://modrinth.com/datapack/player_motion))
+* [Player Motion](https://modrinth.com/datapack/player_motion)
 
 ## 內容
 
