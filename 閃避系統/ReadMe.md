@@ -9,6 +9,9 @@
 |---|---|---|
 |戰鬥僵直資料包	|`stiff`	|latest version	|
 
+> [!IMPORTANT]
+> 引用他人資料包
+* [Player Motion]([url](https://modrinth.com/datapack/player_motion))
 
 ## 內容
 
