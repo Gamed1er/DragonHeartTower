@@ -2,6 +2,7 @@
     scoreboard objectives add flogger dummy "鐵律鞭叱者亞巴頓"
     scoreboard players set Health flogger 0
     scoreboard players set SkillCoolDown flogger 100
+    scoreboard players set SummonCoolDown flogger 200
     scoreboard players set SkillChooser flogger 4
 
 ## 創建 BossBar

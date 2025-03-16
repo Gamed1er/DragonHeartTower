@@ -1,0 +1,7 @@
+advancement revoke @a only boss:regulator
+
+execute store result score Random Regulator run random value 1..3
+
+execute if score now_floor floor_controller matches 90 run scoreboard players set Random Regulator 4
+execute if score Random Regulator matches 1..3 run execute as @e[tag = regulator] run tellraw @a [{"italic": false,"bold": true,"color": "red","text": "["},{"italic": false,"bold": false,"selector":"@s","hoverEvent": {"action": "show_text","contents": [{"text":"亞巴頓"}]}},{"italic": false,"bold": true,"color": "red","text": "]"},{"italic": false,"bold": true,"color": "white","text": ""},{"italic": false,"bold": false,"color": "white","translate": "ToDH.plot.regulator.battle_msg.kill_player","with":[{"selector":"@s"}]}]
+execute if score Random Regulator matches 4 unless entity @e[tag = regulator] run execute as @e[tag = regulator] run tellraw @a [{"italic": false,"bold": true,"color": "red","text": "["},{"italic": false,"bold": false,"selector":"@s","hoverEvent": {"action": "show_text","contents": [{"text":"亞巴頓"}]}},{"italic": false,"bold": true,"color": "red","text": "]"},{"italic": false,"bold": true,"color": "white","text": ""},{"italic": false,"bold": false,"color": "white","translate": "ToDH.plot.regulator_and_regulator.battle_msg.kill_player","with":[{"selector":"@s"}]}]

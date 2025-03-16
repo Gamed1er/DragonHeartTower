@@ -5,4 +5,5 @@
     scoreboard players set SkillChooser flogger 4
     scoreboard players set Story flogger 0
 
-function boss:flogger/story_loop
+execute if score now_floor floor_controller matches 90 run function boss:flogger/double_story_loop
+execute unless score now_floor floor_controller matches 90 run function boss:flogger/story_loop

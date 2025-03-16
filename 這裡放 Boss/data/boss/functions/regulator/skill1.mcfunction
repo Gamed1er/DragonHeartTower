@@ -13,6 +13,6 @@ item replace entity @e[tag = soul_setting, limit = 3] armor.legs from entity @s 
 item replace entity @e[tag = soul_setting, limit = 3] weapon.mainhand from entity @s weapon.mainhand
 item replace entity @e[tag = soul_setting, limit = 3] weapon.offhand from entity @s weapon.offhand
 
-execute at @e[tag = regulator, limit = 1] run spreadplayers ~ ~ 10 10 false @e[tag = soul_setting]
-
 tag @e remove soul_setting
+
+function boss:regulator/skill1

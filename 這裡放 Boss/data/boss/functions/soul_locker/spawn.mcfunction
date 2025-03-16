@@ -17,6 +17,7 @@
 
 ## 本體召喚
     summon skeleton ~ ~ ~ {PersistenceRequired:1b,Health:250f,Tags:["enemy","boss","soul_locker"],CustomName:'{"text":"癡盲鎖魂人 - 厄爾 ","color":"dark_red","bold":true}',HandItems:[{id:"minecraft:iron_sword",Count:1b},{}],ArmorItems:[{id:"minecraft:leather_boots",Count:1b,tag:{display:{color:7366759},AttributeModifiers:[{AttributeName:"generic.movement_speed",Name:"generic.movement_speed",Amount:0.2,Operation:1,UUID:[I;-75603836,-217298095,-2054403784,2068372515],Slot:"legs"}],Trim:{material:"minecraft:iron",pattern:"minecraft:wild"}}},{id:"minecraft:leather_leggings",Count:1b,tag:{display:{color:7366759},Trim:{material:"minecraft:iron",pattern:"minecraft:wild"}}},{id:"minecraft:leather_chestplate",Count:1b,tag:{display:{color:7366759},Trim:{material:"minecraft:iron",pattern:"minecraft:wild"}}},{id:"minecraft:player_head",Count:1b,tag:{SkullOwner:"SwaGro"}}],ArmorDropChances:[0.000F,0.000F,0.000F,0.085F],Attributes:[{Name:generic.max_health,Base:250}]}
+    data modify entity @e[tag=soul_locker, limit=1] NoAI set value false
     execute store result bossbar soul_locker max run data get entity @e[tag = soul_locker, limit = 1] Health
     function boss:soul_locker/loop1
     team join soul_locker @e[tag = soul_locker]

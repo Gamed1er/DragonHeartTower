@@ -1,0 +1,18 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "damage": {
+                    "source_entity": {
+                        "nbt": "{Tags:[\"flogger\"]}"
+                    }
+                }  
+            }
+        }
+    },
+    "rewards": {
+        "function": "boss:flogger/kill_player"
+    }
+}
+  

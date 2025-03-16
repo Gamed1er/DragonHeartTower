@@ -1,0 +1,17 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "damage": {
+                    "source_entity": {
+                        "nbt": "{Tags:[\"regulator\"]}"
+                    }
+                }  
+            }
+        }
+    },
+    "rewards": {
+        "function": "boss:regulator/skill1"
+    }
+}

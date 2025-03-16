@@ -3,7 +3,7 @@
     execute if score SkillCoolDown Regulator matches -1 run item replace entity @s weapon.mainhand with stick{Enchantments:[{id:"minecraft:knockback",lvl:5s}]} 1
     execute if score SkillCoolDown Regulator matches -5 run tag @r add regulator_target
     execute if score SkillCoolDown Regulator matches -30 anchored feet run playsound entity.warden.angry master @a ~ ~ ~ 100 1 1
-
+    execute if score SkillCoolDown Regulator matches -30 run function boss:regulator/skill2_tellraw
 
 ## 衝刺
     execute if score SkillCoolDown Regulator matches -30 anchored feet at @s run tp @s ~ ~ ~ facing entity @r

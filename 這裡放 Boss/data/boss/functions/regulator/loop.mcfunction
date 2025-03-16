@@ -27,9 +27,9 @@
     execute if score SkillChooser Regulator matches 0..10 as @e[tag = regulator_mount] at @s run function boss:regulator/skill2
 
     # 被動效果
-    execute if score Skill3 Regulator matches 6 if score Health Regulator matches ..187 if score SkillCoolDown Regulator matches 1.. run function boss:regulator/skill3
-    execute if score Skill3 Regulator matches 5 if score Health Regulator matches ..125 if score SkillCoolDown Regulator matches 1.. run function boss:regulator/skill3
-    execute if score Skill3 Regulator matches 4 if score Health Regulator matches ..63 if score SkillCoolDown Regulator matches 1.. run function boss:regulator/skill3
+    execute if score Skill3 Regulator matches 6 if score Health Regulator matches ..150 if score SkillCoolDown Regulator matches 1.. run function boss:regulator/skill3
+    execute if score Skill3 Regulator matches 5 if score Health Regulator matches ..100 if score SkillCoolDown Regulator matches 1.. run function boss:regulator/skill3
+    execute if score Skill3 Regulator matches 4 if score Health Regulator matches ..50 if score SkillCoolDown Regulator matches 1.. run function boss:regulator/skill3
 
     # 血屍爆炸
     scoreboard players remove @e[tag = soul_tnt] Regulator 1

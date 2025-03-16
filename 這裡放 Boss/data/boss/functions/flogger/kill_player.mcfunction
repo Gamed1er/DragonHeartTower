@@ -1,0 +1,7 @@
+advancement revoke @a only boss:flogger
+
+execute store result score Random flogger run random value 1..3
+
+execute if score now_floor floor_controller matches 90 run scoreboard players set Random flogger 4
+execute if score Random flogger matches 1..3 run execute as @e[tag = flogger] run tellraw @a [{"italic": false,"bold": true,"color": "red","text": "["},{"italic": false,"bold": false,"selector":"@s","hoverEvent": {"action": "show_text","contents": [{"text":"亞巴頓"}]}},{"italic": false,"bold": true,"color": "red","text": "]"},{"italic": false,"bold": true,"color": "white","text": ""},{"italic": false,"bold": false,"color": "white","translate": "ToDH.plot.flogger.battle_msg.kill_player","with":[{"selector":"@s"}]}]
+execute if score Random flogger matches 4 unless entity @e[tag = soul_locker] run execute as @e[tag = flogger] run tellraw @a [{"italic": false,"bold": true,"color": "red","text": "["},{"italic": false,"bold": false,"selector":"@s","hoverEvent": {"action": "show_text","contents": [{"text":"亞巴頓"}]}},{"italic": false,"bold": true,"color": "red","text": "]"},{"italic": false,"bold": true,"color": "white","text": ""},{"italic": false,"bold": false,"color": "white","translate": "ToDH.plot.flogger_and_soul_locker.battle_msg.kill_player","with":[{"selector":"@s"}]}]
