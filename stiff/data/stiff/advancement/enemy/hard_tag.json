@@ -1,0 +1,47 @@
+{
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:all_of",
+						"terms": [
+							{
+								"condition": "minecraft:entity_properties",
+								"entity": "this",
+								"predicate": {}
+							}
+						]
+					}
+				],
+				"damage": {
+					"blocked": false,
+					"type": {
+						"tags": [
+							{
+								"id": "stiff:hard",
+								"expected": false
+							}
+						],
+						"direct_entity": {
+							"nbt": "{Tags:[\"ToDH.HardAttacker\"]}"
+						}
+					}
+				},
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"nbt": "{Tags:[\"enemy\"]}"
+						}
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "stiff:main/do/damage/enemy/hard/check"
+	}
+}
