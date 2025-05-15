@@ -3,7 +3,7 @@
 
 execute as @s if score @s stiff.bodylimit > @s stiff.bodylimit.Max run scoreboard players operation @s stiff.bodylimit = @s stiff.bodylimit.Max
 
-scoreboard players remove @s stiff.bodylimit 10
+scoreboard players remove @s stiff.bodylimit 25
 scoreboard players operation @s stiff.bodylimit -= @s stiff.resilience
 
 data modify entity @s NoAI set value 0b
