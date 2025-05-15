@@ -6,7 +6,10 @@ execute as @s if score @s stiff.bodylimit > @s stiff.bodylimit.Max run scoreboar
 scoreboard players remove @s stiff.bodylimit 10
 scoreboard players operation @s stiff.bodylimit -= @s stiff.resilience
 
-data modify entity @s NoAI set value 1b
+data modify entity @s NoAI set value 0b
+attribute @s jump_strength modifier add todh:stiff.debuff -1.0 add_multiplied_total
+attribute @s movement_speed modifier add todh:stiff.debuff -1.0 add_multiplied_total
+attribute @s attack_damage modifier add todh:stiff.debuff -1.0 add_multiplied_total
 
 execute if score @s stiff.bodylimit matches ..0 run function stiff:main/do/over/clear
 execute if score @s stiff.bodylimit matches ..0 run scoreboard players set @s stiff.bodylimit 0
