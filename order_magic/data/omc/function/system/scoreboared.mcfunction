@@ -4,17 +4,27 @@ scoreboard objectives add OMC.Player.check.carrotstick used:carrot_on_a_stick
 scoreboard objectives add OMC.Player.check.drop custom:drop
 scoreboard objectives add OMC.Player.check.enderpearl used:ender_pearl
 scoreboard objectives add OMC.Player.check.endereye used:ender_eye
+
 scoreboard objectives add OMC.Player.Mana.Strength dummy
+scoreboard objectives add OMC.Player.Mana.Strength.Base dummy
+scoreboard objectives add OMC.Player.Mana.Strength.Extra dummy
+scoreboard objectives add OMC.Player.Mana.Strength.Multiply dummy
+
 scoreboard objectives add OMC.Player.Mana.Points dummy
 scoreboard objectives add OMC.Player.Mana.Points.display dummy
 scoreboard objectives add OMC.Player.Mana.Points.display.d dummy
 scoreboard objectives add OMC.Player.Mana.Points.Max dummy
+scoreboard objectives add OMC.Player.Mana.Points.Max.Base dummy
+scoreboard objectives add OMC.Player.Mana.Points.Max.Extra dummy
+scoreboard objectives add OMC.Player.Mana.Points.Max.Multiply dummy
 scoreboard objectives add OMC.Player.Mana.Points.Max.display dummy
 scoreboard objectives add OMC.Player.Mana.Points.Regen dummy
 scoreboard objectives add OMC.Player.Mana.Points.Regen.TickperSec dummy
 scoreboard objectives add OMC.Player.Mana.Points.Regen.Boost dummy
+scoreboard objectives add OMC.Player.Mana.Points.Regen.Base dummy
 scoreboard objectives add OMC.Player.Mana.Points.Cost dummy
 scoreboard objectives add OMC.Player.Mana.Points.Cost.Reduction dummy
+
 scoreboard objectives add OMC.Player.Mana.Damage dummy
 
 
@@ -25,6 +35,9 @@ scoreboard objectives add OMC.Skill.ID dummy
 scoreboard objectives add OMC.Skill.ID.reg dummy
 scoreboard objectives add OMC.Skill.ID.Limit dummy
 scoreboard objectives add OMC.Skill.ID.Count dummy
+scoreboard objectives add OMC.Skill.MC.playing dummy
+scoreboard objectives add OMC.Skill.MC.frame dummy
+
 scoreboard objectives add OMC.Skill.1.Ench.Time custom:play_time
 
 scoreboard objectives add OMC.storage.reg dummy

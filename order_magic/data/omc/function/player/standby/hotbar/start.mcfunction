@@ -1,4 +1,7 @@
 
+
+execute as @s run function omc:player/mana/state/count
+
 execute as @s store result storage omc:function reg.Slot int 1 run scoreboard players set @s OMC.storage.hotbar.slot 0
 execute as @s store result storage omc:function reg.ID int 1 run scoreboard players get @s OMC.Player.ID
 execute as @s store result storage omc:function reg.item.slot int 1 run data get entity @s SelectedItemSlot 1

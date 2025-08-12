@@ -1,0 +1,1 @@
+scoreboard players set global OMC.Skill.MC.playing 0

@@ -3,7 +3,7 @@ scoreboard players reset @s OMC.Player.check.drop
 scoreboard players reset @s OMC.Player.check.enderpearl
 scoreboard players reset @s OMC.Player.check.endereye
 scoreboard players reset @s OMC.Skill.ID.Count
-execute store result score @s OMC.Skill.ID.Limit run data get entity @s Inventory[{Slot:-106b}].tag.OMC.ManaIDLimit 1
+execute store result score @s OMC.Skill.ID.Limit run data get entity @s Inventory[{Slot:-106b}].components.minecraft:custom_data.OMC.Mana.IDLimit 1
 scoreboard players add @s OMC.Skill.ID.Limit 1
 
 tag @s add OMC.Players.standby
