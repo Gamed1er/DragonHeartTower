@@ -11,5 +11,6 @@ title @s title [""]
 
 scoreboard players reset @s KCS.Players.Bow.shoot
 tag @s add KCS.Players.arrow.piercing
+say 111
 advancement revoke @s only kcs:players/bow/piercing_tag
 advancement revoke @s only kcs:players/bow/piercing_hit
