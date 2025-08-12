@@ -3,7 +3,7 @@
 
 execute positioned ~ ~ ~ run tp @s ~ ~ ~
 particle enchanted_hit ~ ~1 ~ 0.01 0.25 0.01 0.05 64
-particle dust 0.561 0 0 0.5 ~ ~1 ~ 0.1 0.25 0.1 0.05 64
+# particle dust 0.561 0 0 0.5 ~ ~1 ~ 0.1 0.25 0.1 0.05 64
 playsound entity.arrow.shoot record @a[distance=..16] ~ ~ ~ 0.7 1 0.5
 playsound entity.player.attack.sweep record @a[distance=..16] ~ ~ ~ 1 0.5 0.7
 execute store result storage kcs:function Battle.DMG float 0.2 run scoreboard players get @s KCS.Skill.Damage

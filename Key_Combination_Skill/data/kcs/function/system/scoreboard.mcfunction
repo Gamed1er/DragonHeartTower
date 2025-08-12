@@ -17,6 +17,10 @@ scoreboard objectives add KCS.Skill.arrow.Crit.Tick custom:play_time
 
 scoreboard objectives add KCS.Players.Bow.shoot used:bow
 scoreboard objectives add KCS.Players.arrow.count dummy
+scoreboard objectives add KCS.Players.Arrow_Points dummy
+scoreboard objectives add KCS.Players.Arrow_Points.Base dummy
+scoreboard objectives add KCS.Players.Arrow_Points.Filling_Speed dummy
+scoreboard objectives add KCS.Players.Arrow_Points.Filling_Speed.TickperSec dummy
 
 
 

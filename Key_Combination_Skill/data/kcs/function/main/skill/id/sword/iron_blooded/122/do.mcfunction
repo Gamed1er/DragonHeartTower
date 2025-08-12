@@ -11,7 +11,7 @@ title @s title [""]
 
 
 tag @s add KCS.attacker.detect
-execute at @s run particle dust 0.561 0 0 2 ~ ~1 ~ 0.2 0.5 0.2 0.05 256
+# execute at @s run particle dust 0.561 0 0 2 ~ ~1 ~ 0.2 0.5 0.2 0.05 256
 execute at @s run playsound minecraft:entity.wolf.howl record @a[distance=..16] ~ ~ ~ 1 1 0.7
 execute at @s run playsound minecraft:entity.wolf.howl record @a[distance=..16] ~ ~ ~ 1 0.8 0.7
 execute at @s run playsound minecraft:entity.wolf.howl record @a[distance=..16] ~ ~ ~ 1 0.85 0.7

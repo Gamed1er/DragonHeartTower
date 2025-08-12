@@ -31,6 +31,6 @@
 		}
 	},
 	"rewards": {
-		"function": "kcs:main/skill/id/bow/normal/111/hit"
+		"function": "kcs:main/skill/contant/bow/normal/armor_piercing/hit"
 	}
 }

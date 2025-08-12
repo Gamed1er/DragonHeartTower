@@ -1,8 +1,8 @@
 
 execute as @s run scoreboard players add @s KCS.Skill.Range 1
 particle enchanted_hit ~ ~ ~ 0.01 0.025 0.01 0.05 8
-particle dust 1 0 0 0.25 ^ ^ ^-.5 0 0.3 0 1 8
-particle dust 1 0 0 1.25 ^ ^ ^-.5 0 0 0 1 2
+# particle dust 1 0 0 0.25 ^ ^ ^-.5 0 0.3 0 1 8
+# particle dust 1 0 0 1.25 ^ ^ ^-.5 0 0 0 1 2
 playsound entity.player.attack.sweep record @a[distance=..16] ~ ~ ~ 1 .5 0.7
 playsound entity.arrow.shoot record @a[distance=..16] ~ ~ ~ 1 1.2 0.7
 playsound entity.arrow.hit record @a[distance=..16] ~ ~ ~ 1 1.5 0.7

@@ -1,0 +1,72 @@
+{
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:all_of",
+						"terms": [
+							{
+								"condition": "minecraft:inverted",
+								"term": {
+									"condition": "minecraft:any_of",
+									"terms": [
+										{
+											"condition": "minecraft:entity_properties",
+											"entity": "this",
+											"predicate": {
+												"nbt": "{Tags:[\"KCS.Players.standby\"]}"
+											}
+										},
+										{
+											"condition": "minecraft:entity_properties",
+											"entity": "this",
+											"predicate": {
+												"nbt": "{Tags:[\"Stiff.ing\"]}"
+											}
+										},
+										{
+											"condition": "minecraft:entity_properties",
+											"entity": "this",
+											"predicate": {
+												"slots": {
+													"weapon.mainhand": {
+														"predicates": {
+															"minecraft:custom_data": {
+																"KCS": {
+																	"trigger": true,
+																	"type": "bow"
+																}
+															}
+														}
+													}
+												}
+											}
+										}
+									]
+								}
+							},
+							{
+								"condition": "minecraft:entity_properties",
+								"entity": "this",
+								"predicate": {
+									"slots": {}
+								}
+							}
+						]
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"requirement"
+		]
+	],
+	"rewards": {
+		"function": "kcs:main/players/bow/arrow/put_down",
+		"loot": []
+	}
+}
