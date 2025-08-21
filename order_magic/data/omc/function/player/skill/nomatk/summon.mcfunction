@@ -9,6 +9,6 @@ scoreboard players operation @s OMC.Player.Mana.Points -= @s OMC.Player.Mana.Poi
 # playsound entity.arrow.shoot record @a[distance=..16] ~ ~ ~ 2 2 1
 playsound block.enchantment_table.use record @a[distance=..16] ~ ~ ~ 1 1.5 1
 playsound entity.illusioner.cast_spell record @a[distance=..16] ~ ~ ~ 1 1.2 1
-
+playsound entity.shulker.shoot master @a ~ ~ ~ 1.5 1.2 0.5
 # execute at @s run ride @e[type=block_display,tag=OMC.Skill.display.1,limit=1,sort=nearest] mount @e[tag=OMC.Skill.Projectile,limit=1,sort=nearest]
 # execute at @s run ride @e[type=block_display,tag=OMC.Skill.display.2,limit=1,sort=nearest] mount @e[type=block_display,tag=OMC.Skill.display.1,limit=1,sort=nearest]
