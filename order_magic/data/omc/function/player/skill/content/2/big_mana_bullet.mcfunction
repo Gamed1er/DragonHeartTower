@@ -8,7 +8,7 @@ execute store result storage omc:function Skill.vector.Y float 0.001 run data ge
 execute store result storage omc:function Skill.vector.Z float 0.001 run data get entity @e[tag=OMC.marker.vector,limit=1] Pos[2] 100
 
 title @s times 0t 10t 1t
-title @s subtitle {"translate":"text.todh.omc.skill.11.name","color":"gray"}
+title @s subtitle {"translate":"text.todh.omc.skill.big_mana_bullet.name","color":"gray"}
 title @s title [""]
 execute at @s as @s unless score @s OMC.Player.Mana.Points >= @s OMC.Player.Mana.Points.Cost run return run function omc:player/skill/list/text/not_enough
 

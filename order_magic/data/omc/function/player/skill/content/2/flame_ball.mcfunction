@@ -17,6 +17,4 @@ execute at @s as @s unless score @s OMC.Player.Mana.Points >= @s OMC.Player.Mana
 
 execute at @s as @s if score @s OMC.Player.Mana.Points >= @s OMC.Player.Mana.Points.Cost run function omc:player/skill/content/2/flame_ball/summon with storage omc:function Skill.vector
 
-execute as @s anchored eyes positioned ^ ^ ^1.5 rotated as @s run function omc:player/skill/display/fire_magic_circle_2
-execute as @s anchored eyes positioned ^ ^ ^1.5 rotated as @s run function omc:player/skill/display/fire_magic_circle_2
-execute as @s anchored eyes positioned ^ ^ ^1.5 rotated as @s run function omc:player/skill/display/fire_magic_circle_2
+

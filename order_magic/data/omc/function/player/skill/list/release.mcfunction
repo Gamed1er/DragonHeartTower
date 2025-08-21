@@ -1,9 +1,12 @@
 
+execute as @s unless data entity @s Inventory[{Slot:-106b,components:{"minecraft:custom_data":{OMC:{trigger:1b}}}}] run item replace entity @s weapon.offhand from entity @s weapon.mainhand
+
+advancement revoke @s only omc:player/standby_nonull
+
+execute as @s at @s run playsound block.enchantment_table.use master @a ~ ~ ~ 1 1.2 0.5
+
 execute store result storage omc:function Skill.ID int 1 run scoreboard players get @s OMC.Skill.ID
 execute as @s run function omc:player/skill/display/release
 execute if score @s OMC.Skill.ID.Count matches 1.. run function omc:player/skill/list/manager with storage omc:function Skill
 
 
-execute as @s unless data entity @s Inventory[{Slot:-106b,components:{"minecraft:custom_data":{OMC:{trigger:1b}}}}] run item replace entity @s weapon.offhand from entity @s weapon.mainhand
-
-advancement revoke @s only omc:player/standby_nonull
