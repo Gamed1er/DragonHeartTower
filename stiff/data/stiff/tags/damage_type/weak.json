@@ -13,7 +13,8 @@
         "fall",
         "drown",
         "cactus",
-        "wither"
+        "wither",
+        "indirect_magic"
         
     ]
   }

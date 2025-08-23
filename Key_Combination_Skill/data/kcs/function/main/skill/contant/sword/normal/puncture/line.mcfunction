@@ -15,4 +15,4 @@ scoreboard players reset KCS.Score.reg KCS.Skill.Hurt.Count
 
 execute unless block ^ ^ ^1 air run return fail
 execute if score @s KCS.Skill.Hurt.Count matches 3.. run return fail
-execute unless score @s KCS.Skill.Range matches 31.. positioned ^ ^ ^.25 run function kcs:main/skill/contant/sword/normal/puncture/line
+execute unless score @s KCS.Skill.Range matches 25.. positioned ^ ^ ^.25 run function kcs:main/skill/contant/sword/normal/puncture/line
